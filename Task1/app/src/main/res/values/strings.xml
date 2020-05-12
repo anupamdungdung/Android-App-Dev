@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="enter_password">ENTER PASSWORD</string>
+    <string name="enter_e_mail">ENTER E-MAIL</string>
+    <string name="welcome">WELCOME</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user_register_here">New User? Register Here</string>
+    <string name="registerHere">REGISTER HERE</string>
+    <string name="register">REGISTER</string>
+    <string name="welcome_user">WELCOME USER!!!</string>
+    <string name="message">MESSAGE</string>
+    <string name="phone">PHONE</string>
+    <string name="browser">BROWSER</string>
+    <string name="instagram">INSTAGRAM</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="log_out">Log Out</string>
+</resources>
