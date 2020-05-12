@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDD835"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/regn_no_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="ENTER REGISRATION NUMBER"
+        android:layout_margin="15sp"/>
+
+    <Button
+        android:id="@+id/show_name_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW NAME"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/regn_no_edittext"
+        android:layout_margin="15sp"
+        android:background="@drawable/rounded_button"/>
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show_name_button"
+        android:hint="NAME WILL BE DISPLAYED HERE"
+        android:textSize="25sp"
+        android:layout_margin="15sp" />
+</RelativeLayout>
