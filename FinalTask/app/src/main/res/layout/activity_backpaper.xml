@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#039BE5"
+    tools:context=".Backpaper">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/heading_background"
+                android:fontFamily="@font/sweetunicorn"
+                android:padding="5dp"
+                android:text="@string/backpaper_registration_form"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/departmentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:fontFamily="@font/sweetunicorn"
+                android:hint="@string/name_of_department"
+                android:inputType="textPersonName"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/studentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:fontFamily="@font/sweetunicorn"
+                android:hint="@string/name_of_student"
+                android:inputType="textPersonName"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/regnNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:fontFamily="@font/sweetunicorn"
+                android:hint="@string/registration_no"
+                android:inputType="number"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/cgpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:fontFamily="@font/sweetunicorn"
+                android:hint="@string/cgpa"
+                android:inputType="numberDecimal"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:fontFamily="@font/sweetunicorn"
+                android:hint="@string/phone_no"
+                android:inputType="phone"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/emailStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:fontFamily="@font/sweetunicorn"
+                android:hint="@string/e_mail"
+                android:inputType="textEmailAddress"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/subjectsTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/sweetunicorn"
+                android:text="@string/subjects"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+
+            <RelativeLayout
+                android:id="@+id/subjectsRelative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/subjectCode1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/subject_code"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                android:id="@+id/subjectName1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/subjectCode1"
+                android:fontFamily="@font/sweetunicorn"
+                android:hint="@string/subject_name"
+                android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/subjectCredit1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/subjectName1"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/credit"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="5dp"/>
+
+                <EditText
+                    android:id="@+id/subjectCode2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/subject_code"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/subjectName2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/subjectCode1"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/subject_name"
+                    android:inputType="textPersonName" />
+                <EditText
+                    android:id="@+id/subjectCredit2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/subjectName2"
+                    android:layout_below="@+id/subjectCredit1"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/credit"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="5dp"/>
+
+                <EditText
+                    android:id="@+id/subjectCode3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/subject_code"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/subjectName3"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/subjectCode1"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/subject_name"
+                    android:inputType="textPersonName" />
+                <EditText
+                    android:id="@+id/subjectCredit3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/subjectName2"
+                    android:layout_below="@+id/subjectCredit2"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/credit"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="5dp"/>
+
+                <EditText
+                    android:id="@+id/subjectCode4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/subject_code"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/subjectName4"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/subjectCode1"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/subject_name"
+                    android:inputType="textPersonName" />
+                <EditText
+                    android:id="@+id/subjectCredit4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/subjectName2"
+                    android:layout_below="@+id/subjectCredit3"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/credit"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="5dp"/>
+
+                <EditText
+                    android:id="@+id/subjectCode5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/subject_code"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/subjectName5"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/subjectCode1"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/subject_name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/subjectCredit5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/subjectName2"
+                    android:layout_below="@+id/subjectCredit4"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/credit"
+                    android:inputType="numberDecimal"
+                    android:layout_marginRight="5dp"/>
+
+                <EditText
+                    android:id="@+id/paymentDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/payment_details_rs"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/paymentDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/subjectCode5"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:hint="@string/date_dd_mm_yy"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/submitApplication"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paymentDetails"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/pickdatebackground"
+                    android:fontFamily="@font/sweetunicorn"
+                    android:padding="10dp"
+                    android:text="@string/submit"
+                    android:textSize="20dp" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

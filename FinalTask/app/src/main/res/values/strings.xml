@@ -1,0 +1,1370 @@
+<resources>
+    <string name="app_name">Student Companion App</string>
+    <string name="enter_password">ENTER PASSWORD</string>
+    <string name="enter_e_mail">ENTER E-MAIL</string>
+    <string name="welcome">WELCOME</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user_register_here">New User? Register Here</string>
+    <string name="registerHere">REGISTER HERE</string>
+    <string name="register">REGISTER</string>
+    <string name="welcome_user">WELCOME</string>
+    <string name="message">MESSAGE</string>
+    <string name="phone">PHONE</string>
+    <string name="browser">BROWSER</string>
+    <string name="instagram">INSTAGRAM</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="log_out">Log Out</string>
+    <string name="enter_name">ENTER NAME</string>
+    <string name="enter_registraiton_no">ENTER REGISTRAITON NO</string>
+    <string name="title_activity_todo">todo</string>
+    <string name="tab_text_1">TODOS</string>
+    <string name="tab_text_2">Homework</string>
+    <string name="tab_text_3">Projects</string>
+    <string name="office">OFFICE</string>
+    <string name="comingSoon">WILL BE UPLOADED SOON!</string>
+    <string name="academic_nsection">Academic\nSection</string>
+    <string name="calculator">Calculator</string>
+    <string name="voice_nrecorder">Voice\nRecorder</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="time_table">Time Table</string>
+    <string name="library_fine_ncalculator">Library Fine\nCalculator</string>
+    <string name="to_do">To Do</string>
+    <string name="academic_section">ACADEMIC SECTION</string>
+    <string name="prof_p_k_parhi_pic_academics">Prof. P.K. Parhi, PIC, Academics</string>
+    <string name="ph_9437176889">Ph:-9437176889</string>
+    <string name="email_picacademics_cet_edu_in">Email:- picacademics@cet.edu.in</string>
+    <string name="office_hours_9_30_am_1_30_pm">Office Hours:- 9:30 AM-1:30 PM</string>
+    <string name="_1_30_pm_4_30_pm">1:30 PM-4:30 PM</string>
+    <string name="online_payment">ONLINE PAYMENT</string>
+    <string name="download_fee_structure">DOWNLOAD FEE STRUCTURE</string>
+    <string name="backpaper_registration">BACKPAPER REGISTRATION</string>
+    <string name="retrieve_backpaper_registration_details">RETRIEVE BACKPAPER REGISTRATION DETAILS</string>
+    <string name="registration_details_here">Registration Details Here</string>
+    <string name="backpaper_registration_form">Backpaper Registration Form</string>
+    <string name="name_of_department">Name of Department</string>
+    <string name="name_of_student">Name of Student</string>
+    <string name="registration_no">Registration No.</string>
+    <string name="cgpa">CGPA</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="e_mail">E-mail</string>
+    <string name="subjects">SUBJECTS</string>
+    <string name="subject_code">Subject Code</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="credit">Credit</string>
+    <string name="payment_details_rs">Payment Details(Rs.)</string>
+    <string name="date_dd_mm_yy">Date(DD/MM/YY)</string>
+    <string name="submit">SUBMIT</string>
+    <string name="timetable">Timetable</string>
+    <string name="library_fine_calculator">LIBRARY FINE CALCULATOR</string>
+    <string name="current_date">CURRENT DATE:</string>
+    <string name="due_date">DUE DATE:</string>
+    <string name="days_past_due">DAYS PAST DUE:</string>
+    <string name="fine_per_day">FINE (PER DAY):</string>
+    <string name="in_rs">(in Rs.)</string>
+    <string name="total_fine">TOTAL FINE:</string>
+    <string name="google_maps_api_key">AIzaSyAYTZt3smwK95g_Uw_uXzY8YNQiI7Ryo5M</string>
+
+    <string-array name="Week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="Monday">
+        <item>Observational Behaviour</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Database Management System</item>
+        <item>Break</item>
+        <item>COA LAB IT 1/DAA LAB IT 2</item>
+    </string-array>
+    <string-array name="Tuesday">
+        <item>Environmental Science</item>
+        <item>Discrete Mathematics</item>
+        <item>Database Management System</item>
+        <item>Break</item>
+        <item>Computer Organization and Architecture</item>
+        <item>Observational Behaviour</item>
+
+    </string-array>
+    <string-array name="Wednesday">
+        <item>Design and Analysis of Algorithms</item>
+        <item>Database Management System</item>
+        <item>Break</item>
+        <item>DMS LAB IT 2/DAA LAB IT 1</item>
+
+    </string-array>
+    <string-array name="Thursday">
+        <item>Design and Analysis of Algorithms</item>
+        <item>Discrete Mathematics</item>
+        <item>Computer Organization and Architecture</item>
+        <item>Break</item>
+        <item>DMS LAB IT 1/COA LAB IT 2</item>
+
+    </string-array>
+    <string-array name="Friday">
+        <item>Design and Analysis of Algorithms</item>
+        <item>Observational Behaviour</item>
+        <item>Discrete Mathematics</item>
+        <item>Break</item>
+        <item>Computer Organization and Architecture</item>
+        <item>Environmental Science</item>
+
+    </string-array>
+    <string-array name="Saturday">
+        <item>SITE VISIT/INVITED SPEAKER/SEMINAR/LIBRARY/MOOCS</item>
+
+
+    </string-array>
+    <string-array name="time1">
+        <item>9:30 – 10:30 AM</item>
+        <item>10:30 – 11:30 AM</item>
+        <item>11:30 AM - 12:30 PM</item>
+        <item>12:30 – 1:30 PM</item>
+        <item>1:30 – 4:30 PM</item>
+    </string-array>
+    <string-array name="time2">
+        <item>9:30 – 10:30 AM</item>
+        <item>10:30 – 11:30 AM</item>
+        <item>11:30 AM - 12:30 PM</item>
+        <item>12:30 – 1:30 PM</item>
+        <item>1:30 – 2:30 PM</item>
+        <item>2:30 – 3:30 PM</item>
+    </string-array>
+    <string-array name="time3">
+        <item>10:30 – 11:30 AM</item>
+        <item>11:30 AM - 12:30 PM</item>
+        <item>12:30 – 1:30 PM</item>
+        <item>1:30 – 4:30 PM</item>
+    </string-array>
+    <string-array name="time4">
+        <item>9:30 – 10:30 AM</item>
+        <item>10:30 – 11:30 AM</item>
+        <item>11:30 AM - 12:30 PM</item>
+        <item>12:30 – 1:30 PM</item>
+        <item>1:30 – 4:30 PM</item>
+    </string-array>
+    <string-array name="time5">
+        <item>9:30 – 10:30 AM</item>
+        <item>10:30 – 11:30 AM</item>
+        <item>11:30 AM - 12:30 PM</item>
+        <item>12:30 – 1:30 PM</item>
+        <item>1:30 – 2:30 PM</item>
+        <item>2:30 – 3:30 PM</item>
+    </string-array>
+    <string-array name="time6">
+        <item>9:30 AM - 4:30 PM</item>
+
+    </string-array>
+
+    <string-array name="Semesters">
+        <item>1st Semester</item>
+        <item>2nd Semester</item>
+        <item>3rd Semester</item>
+        <item>4th Semester</item>
+        <item>5th Semester</item>
+        <item>6th Semester</item>
+        <item>7th Semester</item>
+        <item>8th Semester</item>
+    </string-array>
+
+    <string-array name="FirstSemester">
+        <item>CHEMISTRY</item>
+        <item>MATHEMATICS-I</item>
+        <item>PROGRAMMING FOR PROBLEM SOLVING</item>
+        <item>CHEMISTRY LAB</item>
+        <item>PROGRAMMING FOR PROBLEM SOLVING LAB</item>
+        <item>ENGINEERING GRAPHICS AND DESIGN LAB</item>
+    </string-array>
+    <string-array name="SecondSemester">
+        <item>PHYSICS</item>
+        <item>MATHEMATICS-II</item>
+        <item>BASIC ELECTRICAL ENGG.</item>
+        <item>ENGLISH</item>
+        <item>PHYSICS LAB</item>
+        <item>BASIC ELECTRICAL ENGG. LAB</item>
+        <item>WORK SHOP/BASIC MANUFACTURING PROCESS LAB</item>
+
+    </string-array>
+    <string-array name="ThirdSemester">
+        <item>OBJECT ORIENTED PROGRAMMING USING JAVA</item>
+        <item>DATA STRUCTURES USING C</item>
+        <item>FORMAL LANGUAGE AND AUTOMATA THOERY</item>
+        <item>DIGITAL ELECTRONICS</item>
+        <item>MATHEMATICS-III</item>
+        <item>ENGINEERING ECONOMICS</item>
+        <item>JAVA LAB</item>
+        <item>DATA STRUCTURES LAB</item>
+    </string-array>
+    <string-array name="FourthSemester">
+        <item>DESIGN AND ANALYSIS OF ALGORITHMS</item>
+        <item>DISCRETE MATHEMATICS</item>
+        <item>DATABASE MANAGEMENT SYSTEM</item>
+        <item>COMPUTER ORGANIZATION AND BEHAVIOUR</item>
+        <item>ORGANIZATIONAL BEHAVIOUR</item>
+        <item>ENVIRONMENTAL STUDIES</item>
+        <item>DAA LAB</item>
+        <item>DMS LAB</item>
+        <item>COA LAB</item>
+
+    </string-array>
+    <string-array name="FifthSemester">
+        <item>OPERATING SYSTEM</item>
+        <item>COMPUTER NETWORKS</item>
+        <item>COMPILER DESIGN</item>
+        <item>ARTIFICIAL INTELLIGENCE</item>
+        <item>E-COMMERCE AND ERP</item>
+        <item>ADVANCED JAVA</item>
+        <item>ADVANCED COMPUTER ARCHITECTURE</item>
+        <item>OS LAB</item>
+        <item>COMPUTER NETWORKS LAB</item>
+        <item>COMPILER DESIGN LAB</item>
+
+    </string-array>
+    <string-array name="SixthSemester">
+        <item>INTERNET AND WEB TECHNOLOGY</item>
+        <item>SOFTWARE ENGINEERING</item>
+        <item>DATA MINING</item>
+        <item>DATA ANALYTICS</item>
+        <item>COMPUTER VISION</item>
+        <item>CLOUD COMPUTING</item>
+        <item>COMPUTER GRAPHICS</item>
+        <item>SOFT COMPUTING</item>
+        <item>IWT LAB</item>
+        <item>SOFTWARE ENGINEERING LAB</item>
+        <item>SIMULATION LAB</item>
+    </string-array>
+    <string-array name="SeventhSemester">
+        <item>MOBILE COMPUTING</item>
+        <item>REAL TIME SYSTEMS</item>
+        <item>WIRELESS SENSOR NETWORK</item>
+        <item>FAULT TOLERANT SYSTEMS</item>
+        <item>SOFTWARE PROJECT MANAGEMENT</item>
+        <item>INFORMATION RETRIEVAL</item>
+        <item>ENTREPRENEURSHIP DEVELOPMENT</item>
+
+    </string-array>
+    <string-array name="EightSemester">
+        <item>MACHINE LEARNING</item>
+        <item>EMBEDDED SYSTEM</item>
+        <item>INTRUSION DETECTION SYSTEMS</item>
+    </string-array>
+
+
+    <string name="chemSyllabus"><![CDATA[<b>Module I: (7 classes)</b><br/>
+<b>Quantum Chemistry and Spectroscopy:</b> Basic concepts and postulates of quantum mechanics. Introduction to Schrodinger Wave Equation, Particle in a box: Energy levels, quantum numbers and selection rule.<br/>
+<b>Spectroscopy:</b> Lambert Beer’s Law, Principles and applications of UV- Visible Molecular Absorption Spectroscopy; Chromophores, applications to calorimetry. Effect of conjugation on chromophores, Absorption by aromatic systems, introductory idea on Rotational and Vibrational Spectroscopy Principles and application to diatomic molecules.<br/>
+
+<b>The phase rule:</b> Statement of Gibb’s phase rule and explanation of the terms involved, Phase diagram of one component system – water and sulfur system, Condensed phase rule, Phase diagram of two component system- Eutectic Bi-Cd System (3 Classes)<br/><br/>
+
+<b>Module-II (10 Classes)</b><br/>
+<b>Organometallics:</b> Introduction to organometallics, EAN rule; classification, nomenclature and characteristics of organometallic compounds. Applications of organometallic compounds and catalyst in alkene isomerization hydrogenation and hydroformylation (detail mechanisms are to be excluded).<br/><br/>
+
+<b>Module-III (10 Classes)</b><br/>
+<b>Fuels:</b> Classification of fuels, calorific value. (Determination by Dulong’s formula), G.C.V and N.C.V. Liquid fuels: Classification of petroleum, refining of petroleum, Cracking, Knocking and anti-knocking, cetane and octane numbers. Unleaded petrol, synthetic petrol, power alcohol. Gaseous Fuel: Producer gas, Water gas, LPG, CNG, Kerosene gas, Combustion Calculation.<br/><br/>
+
+<b>Module IV: (10 Classes)</b><br/>
+<b>Corrosion:</b> Electrochemical theory of corrosion, galvanic series, Types of corrosion, Differential metal corrosion, Differential aeration corrosion(Pitting and water line corrosion), Stress corrosion(caustic embrittle in boilers), Factors affecting, Metal coatings- Galvanizing and Timing, Corrosion, inhibitors, cathodic protection.<br/><br/>
+<b>Textbooks:</b><br/>
+1.	Text Books in Applied Chemistry by A. N Acharya and B. Samantaray, Pearson India
+2.	Introductory to Quantum Chemistry by A.K. Chandram, 4th Edition, McGraw Hill Education.
+3.	Fundamentals of Molecular & Spectroscopy by Banwell, Tata McGraw Hill Education
+4.	Physical Chemistry by Gordon M. Barrow, McGraw Hill
+5.	Engineering Chemistry, 12th Edition, Author: Willey India Editorial Team Publishers Wiley.
+6.	Engineering Chemistry: Fundamentals and Applications, Shikhas Agarwal, Cambridge University Press.
+7.	Engineering Chemistry, Jain and Jain, Dhanpat Rai Publication<br/>
+]]>
+
+    </string>
+    <string name="mathematicsISyllabus"><![CDATA[<b>Module-I (12 Hours)</b><br/>
+<b>Calculus:</b>
+Asymptote, Curvature, Convergence of sequence and series, tests for convergence, power series, Taylor’s series, Fourier series.
+Partial differentiation, Taylor’s Theorem for function of two variable, Maxima and Minima for function of two variables.<br/><br/>
+
+<b>Module-II (10 Hours)</b><br/>
+<b>Vector differential calculus:</b>Vector and scalar functions and fields, Derivatives curves, tangents and arc length, gradient, divergence curl.
+<b>Vector integral calculus:</b>Line integrals, Green Theorem, Surface integrals, Gauss theorem and Stokes Theorem.<br/><br/>
+
+<b>Module-III (13 Hours)</b><br/>
+<b>Differential Equation:</b>First order differential equations, Separable Equation, Exact differential equation, linear differential equation, Bernoulli’s equation and application to Electrical Circuits.
+Linear differential equation of second and higher order, Homogeneous equation with constant co-efficient Euler-Cauchy equations, Solution by undetermined co-efficient, Solutions by variation of parameters, Modeling of electric circuits.<br/><br/>
+
+<b>Module-IV (10 Hours)</b><br/>
+Series solution of differential equations, Power series method, Legendre equation and Legendre polynomials,
+Laplace transformation and its use in getting solution to differential equations, Convolution, Integral Equations.<br/><br/>
+
+<b>Textbooks:</b><br/>
+1. Differential Calculus by Santi Narayan and Mittal, Chapters 14,15 Publication<br/>
+2. Advanced Engineering Mathematics by E. Kreyszig, Tenth Edition, Willey<br/>
+3. Higher Engineering Mathematics by B.V. Raman, MacGraw Hills Education<br/><br/>
+<b>References:</b><br/>
+1. Engineering Mathematics by Pal and S Bhunia, Oxford Publication<br/>
+2. Ordinary and Partial Differential equations by J. Sinha Roy and S Padhy, Kalyani Publishers<br/>
+3. Advance Engineering Mathematics by P.V. O’NEIL, CENGAGE<br/>
+]]></string>
+
+    <string name="ppsSyllabus"><![CDATA[<b>Module 1:</b><br/>
+Introduction to Programming, Introduction to components of a computer system (disks, memory, processor, where a program is stored and executed, operating system, compilers etc.)
+<b>Idea of Algorithm:</b> steps to solve logical and numerical problems. Representation of Algorithm: Flowchart/Pseudocode with examples, From algorithms to programs; source code, variables (with data types) variables and memory locations, Syntax and Logical Errors in compilation, object and executable code, Arithmetic expressions and precedence.<br/><br/>
+
+<b>Module-2</b><br/>
+Conditional Branching and Loops, Arrays(1-D,2-D), Character arrays and Strings, Functions(including using built in libraries), Parameter passing in functions, call by value, Passing arrays to functions: idea of call by reference, Recursion, as a different way of solving problems.<br/><br/>
+
+<b>Module-3:</b><br/>
+Structure and Unions, defining strictures and Array of Structures, Pointers, Idea of pointers, Defining pointers, Pointers to functions, Double pointers.<br/><br/>
+
+<b>Module-4:</b><br/>
+Dynamic memory allocation, use of malloc (), calloc(), realloc(), free(). Storage classes: local, global, static and register variables. File handling: reading and writing to a file.<br/>
+
+]]></string>
+
+    <string name="chemLabSyllabus"><![CDATA[<b>APPLIED CHEMISTRY LAB (0-0-2)</b><br/>
+<b>1.</b> Determination of amount of sodium hydroxide and sodium carbonate in a mixture.<br/>
+<b>2.</b> Determination of total hardness of water by EDTA method.<br/>
+<b>3.</b> Estimation of calcium in limestone<br/>
+<b>4.</b> Determination of percentage of available chlorine in a sample of bleaching powder.<br/>
+<b>5.</b> Preparation of Phenolphthalein<br/>
+<b>6.</b> Acid-Base Titration by Potentiometry.<br/>
+<b>7.</b> Preparation of buffer solution and determination of pH of a buffer solution<br/>
+<b>8.</b> Standardization of KMnO4 using sodium oxalate. Determination of ferrous ion in Mohr’s salt by potassium permanganate<br/>
+<b>9.</b> Determination of partition coefficients of iodine in benzene and water<br/>
+<b>10.</b> Determination of rate constant of acid catalyzed hydrolysis reaction<br/>
+<b>11.</b> Determination of concentration of a colored substance by spectrophotometer<br/>
+<b>12.</b> Determination of dissolved oxygen in a sample of water.<br/>
+<b>13.</b> Determination of Viscosity of a lubricating oil by Red Wood Viscometer<br/>
+<b>14.</b> Determination of Flash point of a given oil by Pensky-Marten’s flash point approach<br/>
+<b>15.</b> Determination of Critical Micelle concentration (CMC) of an ionic surfactant (Both cationic and anionic). <br/>
+
+]]></string>
+    <string name="ppsLabSyllabus"><![CDATA[<b>Programming for Problem Solving Lab</b><br/>
+	<b>Lab1:</b> Familiarization with programming environment<br/><br/>
+<b>Lab2:</b> Simple computational problems using arithmetic expressions.<br/>
+<b>Lab3:</b> Problems involving if-then-else structures<br/>
+<b>Lav4:</b> Iterative problems e.g., sum of series<br/>
+<b>Lab5:</b> 1D Array manipulation<br/>
+<b>Lab6:</b> Matrix problems, String operations<br/>
+<b>Lab7:</b> Simple functions<br/>
+<b>Lab8 and Lab 9:</b> Programming for solving (Numerical methods problems)<br/>
+<b>Lab10:</b> Recursive functions<br/>
+<b>Lab11:</b> Pointers and structures<br/>
+<b>Lab12:</b> File operations<br/>
+
+]]></string>
+    <string name="physicsSyllabus"><![CDATA[<b>Module-I (18 Classes)</b><br/>
+    <b>Classical Dynamics (6 Classes)</b><br/>
+Newton’s laws of motion, generalized coordinates, constraints, Principle of virtual work, D’Alembert’s Principle, Lagrangian, Action Principle, Lagrange equation of motion (no derivation) and its application to Simple Harmonic oscillator and simple pendulum.<br/>
+<b>General properties of Matter:</b>
+Stress, Strain, Hook’s law, Young’s modulus<br/><br/>
+
+<b>Oscillation & Waves (6 classes)</b><br/>
+Simple Harmonic Oscillation, damped harmonic oscillation, forced oscillator, resonance, coupled oscillation, concept of wave and wave equation.<br/><br/>
+
+<b>OPTICS (6 Classes)</b><br/>
+Concept of interference, two source interference pattern, Biprism, Michelson Interferometer and measurement of wavelength.<br/><br/>
+
+<b>Diffraction:</b> Huygens principle, Fresnel & Fraunhofer diffraction Zone plate, Plane diffraction grating (formula only).<br/><br/>
+
+<b>Module-II (12 Classes)</b><br/>
+<b>Solid State Physics (6 classes)</b><br/>
+Crystalline and amorphous solid, unit cell, Miller Indices, Reciprocal lattice, Bragg’s Law, Brillouin’s zone, concept of fermions, Maxwell-Boltzmann, Fermi-Dirac, and Bose-Einstein distribution function (only statement and formula), Concept of Fermions and Bosons. Classification of materials: metals, semiconductor and insulator in terms of band theory.<br/><br/>
+
+<b>LASER and Fibre Optics (6 classes)</b><br/>
+Principle and application, stimulated emission, population inversion, Lasing material (solid and gas), He-Ne laser, Ruby-LASER, Application of LASER (Engineering Application), Principle of optical fibre and its application to communication.<br/><br/>
+
+<b>Module-III (12 Classes)</b><br/>
+<b>Electromagnetism- (6 classes)</b> Student will be familiarized with some basics used in vector calculus prior to development of Maxwell’s electromagnetic wave equations. No proof of theorems and laws included in unit expected- statement and interpretation should be sufficient.<br/>
+a)	Vector calculus: gradient of scalar field, divergence, curl of vector field (Only Physical Significance) Gauss divergence theorem, Stoke’s theorem, Green’s theorem (Only Statements) and applications.<br/>
+b)	Gauss’s law of electrostatics in free space and in a medium and application(Only statements) electric displacement(D) magnetic induction (B), Amperes circuital law(Only statements), displacement current, Faraday’s law of electromagnetic induction(Only statements), Biot Savart’s Law(Only statements), Maxwell’s four electromagnetic equations, Wave equation for E and B fields in vacuum, Electromagnetic energy, Poynting vector(no derivation).<br/><br/>
+
+<b>Quantum Physics:</b> Elementary concepts of quantum physics formulation to deal with physical systems (6 classes)
+a)	Need for Quantum physics- Historical overviews, Particle aspects of radiation-Black body radiation, photoelectric effect, Compton scattering, pair production. (No derivatives), Wave aspect of particles-matter wave, de Broglie’s Hypothesis, Heisenberg Uncertainty Principles-Statement, Interpretation and application to H-atom, Harmonic oscillator to calculate ground state energy.<br/>
+b)	Basic features of Quantum Mechanics-Transition from deterministic to probabilistic, States of system- Wave function, probability density, superposition principle, observables and operators, expectation values. Schrodinger equation-Time dependent and time independent, wave packets.<br/><br/>
+
+<b>Textbooks:</b><br/>
+1.	Lectures in Engineering Physics, L Maharana, P K panda, S N Dash, B Ojha, Pearson<br/><br/>
+<b>Reference Book:</b><br/>
+1.	An Introduction to Mechanics – D. Klippner & R. Kolenkow, TMH<br/>
+2.	Concepts of Modern Physics – Arthur Beiser.<br/>
+3.	Electricity & Magnetism – E.M. Purecell<br/>
+4.	Engineering Physics by D.K Bhattacharya and Poonam Tandon, Oxford University Press<br/>
+5.	Engineering Physics by D.R. Joshi, Mc Graw Hill<br/>
+6.	Introduction to Electrodynamics- David J. Griffiths, PHI Publication<br/>
+7.	Optics- A. K. Ghatak<br/>
+8.	Physics-I for engineering degree students-B.B. Swain and P.K. Jena<br/>
+9.	Quantum Mechanics- Powel & Craserman<br/>
+10.	Quantum Physics- Gasiorowicz<br/>
+
+
+]]></string>
+    <string name="mathsIISyllabus"><![CDATA[<b>Module-I (10 Hours)</b><br/>
+Matrices, vectors, addition and scalar multiplication, matrix multiplication. Linear systems of equations, linear independence, rank of a matrix, determinants, Cramer’s rule, inverse of a matrix, Gauss elimination and Gauss-Jordon elimination<br/>
+Vector space, linear dependence of vectors, basis, dimension<br/><br/>
+
+<b>Module-II (13 Hours)</b><br/>
+Linear transformations (maps), range and kernel of a linear map, rank and nullity. Inverse of a linear transformation, rank-nullity theorem, composition of linear maps, matrix associated with a linear map<br/>
+Eigen values, eigen vectors, symmetric, skew-symmetric, and orthogonal matrices, eigen basis. Diagonalization, Inner product spaces, Gram-Schmidt Orthogonalization<br/><br/>
+
+<b>Module-III (12 Hours)</b><br/>
+Solution of polynomial and transcendental equations- Bisection method, Newton-Raphson methods and Regula-Falsi method.
+Finite differences, Interpolation using Newton’s forward and backward difference formulae, Newton’s divided difference and Lagrange’s formulae. Numerical approximation of functions<br/><br/>
+
+<b>Module-IV (10 Hours)</b><br/>
+Numerical differentiation, Numerical integration, Trapezoidal rule and Simpson’s 1/3rd and 3/8 rules, Gauss Legendre and Gauss quadrature rule.<br/>
+Gauss seidel iteration method for solving a system of linear equations. Euler and modified Euler’s method, Runge-Kutta methods.<br/><br/>
+
+<b>Text Book:</b><br/>
+1.	Advanced Engineering Mathematics by E. Kreyszig, John Willey and Sons Inc. 10th Edition<br/>
+2.	Linear algebra and its applications by Gilbert Strang, Congage Learning<br/><br/>
+
+<b>Reference Books:</b><br/>
+1.	Higher Engineering Mathematics by B. V. Ramanna, McGraw Hill Education<br/>
+2.	Engineering Mathematics by Pal and S. Bhunia, Oxford Publication<br/>
+3.	Advance Engineering Mathematics by P.V. O’Neil<br/>
+4.	Introductory methods of numerical analysis by S.S. Sastry, PHD<br/><br/>
+
+
+]]></string>
+    <string name="beeSyllabus"><![CDATA[<b>Module-I (10 Hours):</b><br/>
+<b>Fundamentals of Electric Circuits:</b> Fundamentals of electrical circuit, Ohm’s law, Kirchhoff’s laws, series and parallel connections, Electric Power and sign conventions, circuit elements and their characteristics. Practical voltage and current sources. Source conversion.<br/>
+<b>Resistive Network Analysis:</b> node voltage and mesh current methods, super node and super mesh methods delta-star and star-delta conversion, superposition principle, Thevenin’s and Norton’s Theorem, Maximum power transfer.<br/><br/>
+
+<b>Module-II (10 Hours)</b><br/>
+<b>Single phase AC circuits:</b> Single phase emf generation, Representation of sinusoidal waveforms, average, effective , peak and rms values, j operators, phasor concept, Analysis of single-phase ac circuits consisting of R,L,C,RL,RC and RLC combinations(series and parallel) Instantaneous Power in AC Circuits, Real Power, reactive power, apparent power, Power Factor, Power triangle, Complex Power.<br/><br/>
+<b>Three-phase AC circuits:</b> Three phase emf generation, Delta-start and star-delta conversions, voltage and current relations in star and delta connections, solution of the three phase circuits with balanced voltage and balanced load conditions, phasor diagram, measurement of power in three phase circuits.<br/><br/>
+<b>Transient Analysis:</b> Writing differential equations for circuits, DC steady state solutions of first order circuits.<br/><br/>
+
+<b>Module-III (	10 Hours)</b><br/>
+<b>Electrical Measuring Instruments:</b> Introduction, PMMC Ammeters and Voltmeters with extension of range, Moving-Iron Ammeters and Voltmeters, Dynamometer type Wattmeter, Energy Meter.<br/><br/>
+<b>Magnetic circuits:</b> MMF, flux, reluctance, inductance. Review of Ampere Law, Biot Savart Law, Magnetic field, Electricity and Magnetism, BH Characteristics and hysteresis loss, series and parallel magnetic circuits.<br/><br/>
+<b>Transformers:</b> Construction, operating principle, emf equation and turns ratio. Types of transformers, phasor diagrams for no load operation.<br/><br/>
+
+<b>Module-IV (10 Hours)</b><br/>
+<b>DC Machines:</b> Principle of Operation of generator and motor, EMF equation, Torque Equation, methods of excitation. Speed equation of d.c. motor, speed control of d.c. shunt motor.<br/><br/>
+<b>Induction motor:</b> construction of Ac inductor machines, Revolving magnetic flux , torque and slip, synchronous speed.<br/><br/>
+<b>Power Systems:</b>  Brief idea about various generating plants (Thermal, Hydel and Nuclear).<br/><br/>
+
+
+]]></string>
+    <string name="englishSyllabus"><![CDATA[
+
+]]></string>
+    <string name="physicsLabSyllabus"><![CDATA[<b>Applied Physics LABORATORY (0-0-3)</b><br/><br/>
+
+1.	Determination of Young’s modulus by Searle’s method/ Bending of beams.<br/>
+2.	Determination of Rigidity modulus by static method.<br/>
+3.	Determination of surface tension by capillary rise method.<br/>
+4.	Determination of acceleration due to gravity by Bar / Krater’s pendulum.<br/>
+5.	Verification of laws of vibration of string using sonometer.<br/>
+6.	Determination of wavelength of light by Newton’s ring apparatus.<br/>
+7.	Determination of grating element of a diffraction grating.<br/>
+8.	Determination of wavelength of laser source by diffraction grating method.<br/>
+9.	Determination of wavelength using Michelson Interferometer.<br/>
+10.	Plotting of characteristic curve of a PN junction diode.<br/>
+11.	Plotting of characteristic curves of BJT.<br/>
+12.	Determination of unknow resistance using Meter Bridge.<br/>
+13.	Determination of reduction factor of the given tangent galvanometer.<br/>
+14.	Determination of horizontal component of earth’s magnetic field by using tangent galvanometer.<br/>
+15.	Determination of Hall coefficient using Hall apparatus.<br/>
+
+
+]]></string>
+    <string name="beeLabSyllabus"><![CDATA[<b>BASIC ELECTRICAL ENGINEERING LABORATORY</b><br/></b>
+1.	Basic safety precautions. Introduction and use of measuring instruments – voltmeter, Ammeter, Wattmeter, Rheostat, multimeter, oscilloscope<br/>
+2.	Connection and measurement of power consumption of an Incandescent, fluorescent, LED an CFL lamp and determination of power factor.<br/>
+3.	Power and power factor measurements in three phase system by two wattmeter method.<br/>
+4.	Verification of super position, Thevenin and Norton’s Theorem.<br/>
+5.	Plotting of B-H curve of different magnetic material an calculation of hysteresis loss.<br/>
+6.	Testing of a single-phase energy meter at different power factor.<br/>
+7.	Calculation of power and power factor in series R-L-C circuit excited by single-phase AC supply and draw the phasor diagram.<br/>
+8.	Determination of open circuit characteristics (OCC) of DC shunt generator.<br/>
+9.	Measuring the steady-state an transient time-response of R-L, R-C and R-L-C circuits t to a step change in voltage.<br/>
+10.	Observation of the no-load current waveform of a transformer on an oscilloscope and measurement of primary and secondary voltages and currents, and power at different load.<br/>
+11.	Demonstration of cut-out sections of machines: dc machine (commutator-brush arrangement), induction machine (squirrel cage rotor), synchronous machine (field winging – slip ring arrangement).<br/>
+
+
+]]></string>
+    <string name="workshopLabSyllabus"><![CDATA[<b>WORKSHOP PRACTICE AND BASIC MANUFACTURING TECHNIQUE</b><br/><br/>
+<b>Engineering materials:</b> Classification of Engineering materials. Mechanical properties of Steel, Aluminum and Plastics.<br/><br/>
+
+Safety precautions in workshop<br/><br/>
+
+<b>Fitting:</b> Knowledge of hand tools: V-block, Marking Gauge, Files, Hack Saw, Drills, Taps, Types of fitting<br/>
+<b>Welding:</b> Study of electric arc welding tools and equipment’s, Models: Butt Joint, Lap Joint, T joint and L-joint.<br/>
+<b>Machining:</b> Introduction to different machine tools: Lathe machine, Shaper machine and milling machine.<br/>
+Brief introduction to other basic manufacturing processes like foundry, sheet metal operation and forming processes.<br/><br/>
+
+<b>Text Books:</b><br/>
+1.	Elements of Workshop Technology, Vol. I and II by Hajrachoudhary, Khanna Publishers.<br/>
+2.	Workshop Technology by WAJ Chapman, Viva Books<br/>
+3.	Workshop Manual by Kannaiah/ Narayana, Scitech<br/>
+
+
+]]></string>
+    <string name="englishLabSyllabus"><![CDATA[
+
+]]></string>
+    <string name="egdLabSyllabus"><![CDATA[<b>ENGINEERING GRAPHICS</b><br/><br/>
+<b>Introduction:</b> Introduction to Engineering Drawing, Drawing Instruments and their uses, Dimensioning, Scale, types of lines, Lettering. (1 sheet)<br/><br/>
+<b>Orthographic Projection:</b> Introduction to Projection, Projection types or methods (First angle and Third angle),
+Plane f Projection, Reference Line, Orthographic Projection of Points (points located in all four quadrants), Projection of Straight Lines (first and third quadrant only), traces of lines. (1 sheet)<br/>
+Orthographic Projection of Plane Surfaces in various positions (Triangle, Square, Rectangle, Rhombus, Pentagon, hexagon and Circle), Traces of a Plane. (1 sheet)<br/>
+Introduction to Solid and Types of Solids, Orthographic Projection of Solids in different Positions. (1 sheet)<br/><br/>
+
+<b>Sections and Development of Lateral Surface of Solids:</b> Sectional view (half section and full section), development of surfaces of right regular prisms, pyramids, cylinders and cones. (1 sheet)<br/>
+<b>Isometric Projection:</b> Introduction, Isometric Scale, Isomeric projection of cube, right regular prism, cylinders, and cones. (1 sheet)<br/>
+<b>Applications:</b> Orthographic and sectional view of Machine components (Screw Thread, nut, and bolt). (1 Sheet)<br/>
+<b>Auto Cad:</b> Introduction to Auto CAD. Fundamental concepts<br/><br/>
+
+<b>Text Books:</b><br/>
+1.	Machine Drawing by N.D. Bhatt, V.M. Panchal, Charotar Publishing House.<br/>
+2.	Machine Drawing by N.D. Junarkar, Pearson Education<br/>
+3.	Machine Drawing with AutoCAD by Goutam Pohit and Goutam Ghosh, Pearson Education<br/>
+4.	Machine Drawing includes AutoCAD by Ajeet Singh, Tata MacGraw Hill<br/><br/>
+
+
+]]></string>
+
+    <string name="oopJSyllabus"><![CDATA[<b>Module I: 10 hrs</b><br/><b>Object Oriented Programming Concepts:-</b><br/>Objects and Classes , Abstraction , Encapsulation, Inheritance,Polymorphism, <b>OOP in Java</b> -Characteristics of Java ,The Java Environment, Java Source File,Structure,Compilation, <b>Fundamental Programming Structures in Java</b> – Defining classes in Java , constructors, methods ,access specifiers, static members ,Comments, Data Types, Variables, Operators, Control Flow, Method overloading, Arrays , Packages, Wrapper class, String class, StringBuffer class, StringTokenizer class, <b>Exceptions</b>-exception hierarchy , throwing and catching exceptions , built-in exceptions, creating own exceptions<br/><br/>
+
+        <b>Module II: 8 hrs</b><br/><b>Inheritance</b> – Super classes and sub classes ,Protected members , constructors in sub classes and super class, Method overriding, Dynamic method dispatch, Abstract classes and methods, final methods and classes ,<b>Interfaces</b>– defining an interface, implementing interface, differences between classes and interfaces ,extending interfaces , <b>Object class</b>-object cloning, <b>Inner classes</b>, Input / Output Basics – Streams , Byte streams and Character streams, Reading and Writing Files<br/><br/>
+
+        <b>Module III: 8 hrs</b><br/><b>Multi-threaded programming</b> – thread properties ,thread creation, thread life cycle ,interrupting threads , thread synchronization, <b>Generic Programming</b>- Motivation for generic programming , generic classes ,generic methods , generic code and virtual machine , inheritance and generics ,reflection and generics, <b>Collections:-</b>ArrayList, LinkedList, HashSet, TreeSet, Map, Stack<br/><br/>
+
+        <b>Module IV: 10 hrs</b><br/><b>Graphics programming</b>– Applet class, AWT event hierarchy, Containers:-Lightweight and heavyweight container ,Components – working with 2D shapes, Color class, Font class, and Image class, <b>Basics of event handling</b> – event handlers, different types of events and listener interfaces, Adapter classes, Introduction to Swing – Model-View Controller, Controller design pattern ,different components in swing, layout management,<b>JavaFX</b><br/><br/>
+
+        <b>TEXT BOOK:</b><br/>1. Java 2: The complete reference by Herbert Schildt, 9th Edition, McGraw Hill Education, 2014.<br/>
+        2. Core Java for Beginners by Rashmi Kant Das, 3rd Edition, VikasPublication,2013<br/><br/>
+
+        <b>REFERENCES:</b><br/>1. Programming With Java:A Primer By Balagurusamy, 3rd Edition, TMH, 2007<br/>
+    2. Core Java: Fundamentals Volume –I by Cay S. Horstmann, Gary Cornel, 9th Edition, Prentice Hall, 2013.<br/>]]></string>
+    <string name="dataStructureSyllabus"><![CDATA[<b>Module–I (12hrs)</b><br/>
+Introduction to data structures, Arrays and Row/Column major representation of Arrays, Sparse matrix, <b>Stack:</b> operation on stack, applications of stack. <b>Queues:</b> representation of queues, types of queues and application, Linked lists: Single linked lists, linked list representation of stacks and Queues, Operations on polynomials, double linked list, circular list.<br/><br/>
+<b>Module – II (12hrs)</b><br/>
+<b>Trees:</b> Binary tree, Binary search tree, AVL Tree,Threaded binary tree, General tree, Complete Binary Tree representation, B-tree, Binary Tree traversal methods, Manipulation of Expression through Binary tree, Operations on Binary Search tree and AVL tree<br/>
+<b>Graphs:</b> Graph terminology, Representation of graphs, path matrix, BFS (breadth first search), DFS (depth first search), topological sorting<br/><br/>
+<b>Module –III (12hrs)</b><br/>
+<b>Sorting and Searching techniques:</b> Bubble sort, selection sort, Insertion sort, Quick sort, merge sort, Heap sort, Radix sort, Shell sort, Linear and binary search.<br/>
+<b>Hashing:</b> Hashing techniques, Hash function, Address calculation techniques- common hashing functions Collision resolution, Linear probing, quadratic probing, Double hashing, Rehashing, Memory allocation, garbage collection.<br/><br/>
+<b>Text Books:</b><br/>
+1. An introduction to data structures with applications by J. Tremblay and P. G. Sorenson, 2nd edition, McGraw Hill Education<br/>
+2. Data Structures & Algorithms by GAV Pai, McGraw Hill, 2008<br/><br/>
+<b>Reference Books:</b><br/>
+1. Data Structure using C by Tanenbaum, Pearson Education, 2009<br/>
+2. Data Structure- A Pseudo code approach with C by Gilberg and Forouzan, 2nd edition Cengage Learning<br/>
+3. Fundamentals of Data Structure in C by Horowitz, Sahani& Freed, 2nd edition, Universities Press, 2008.<br/>
+4. Data Structures with C by Lipschutz (Schaums Outline Series), McGraw Hill Education, 2010<br/>
+5. Introduction to Data Structures in C by Ashok N. Kamthane, Pearson, 2009<br/>
+
+]]></string>
+    <string name="flatSyllabus"><![CDATA[<b>Module –I (9 hours)</b><br/>
+<b>Fundamentals:</b> Strings, Alphabet, Languages, Operations on strings, Finite state machine, definitions, finite automaton model, acceptance of strings, deterministic finite automaton and non deterministic finite automaton, transition diagrams and transition table. <b>Language recognizers:</b> NFA with € transitions - Significance, acceptance of languages. <b>Conversions and Equivalence:</b> Equivalence between NFA with and without € transitions, NFA to DFA conversion, Minimisation of Finite Automata, equivalence between two FSM’s, Design of DFA, Finite Automata with output- Moore and Melay machines.<br/><br/>
+<b>Module II: (9 hours)</b><br/>
+<b>Regular Languages :</b> Regular sets, operators in regular expressions, identity rules, Building finite Automata from regular expressions, Arden’s theorem, Building Regular expression from Finite Automata, Pumping lemma for regular languages, Closure properties of regular sets, CYK Algorithm.<br/><br/>
+<b>Context Free Grammars:</b> Context free grammar, Regular grammars-right linear and left linear grammars, equivalence between regular linear grammar and FA, derivation and Parse trees, and sentential forms, Right most and leftmost derivation of strings, Ambiguity, Elimination of Ambiguity, and Simplification of a CFG, Chomskey and Greibach Normal forms, Closure and Decision properties of CFL, Pumping lemma for CFL.<br/><br/>
+<b>Module III: (9 hours)</b><br/>
+<b>Push down Automata:</b> Push down automata, definition, and model, Components, Moves of a PDA, ID of a PDA, Design of a PDA, PDA to CFG and CFG to PDA conversion, Equivalence of CFL and PDA, Introduction to DCFL and DPDA.<br/><br/>
+<b>Turing Machine :</b> Turing Machine, definition, model, Components, Moves of TM,ID of TM, Design of a TM ,Computable functions, Recursively enumerable languages. Several of Turing Machine’s model, Church’s hypothesis, counter machine, types of Turing machines, Universal Turing Machine and Undecidable problems, Undecidability of post correspondence Problem. Linear bounded automata and context sensitive language, Chomsky’s Hierarchy of Languages.<br/><br/>
+<b>Module IV: (9 hours)</b><br/>
+<b>Primitive Recursive function:</b> Recursive functions, Cantor and Godel numbering, Ackermann’s function, Excursiveness of Ackermann and Turing computable functions. Church Turing Hypothesis, Recursive and Recursively enumerable sets, NP completeness: Definition of P and NP problems, NP complete and NP hard problems.<br/><br/>
+<b>TEXT BOOKS:</b><br/>
+1. Introduction to Automata Theory Languages and Computation by Hop croft and Ullman, 3rd Edition, Pearson Education, 2009<br/>
+2. Introduction to Theory of Computation by Michael Sipser, 3rd Edition, CENGAGE Learning<br/><br/>
+<b>REFERENCES BOOKS:</b><br/>
+1. Introduction to Formal languages, Automata Theory and Computation by Kamala Krithivasan and Rama R, Pearson Education, 2009.<br/>
+2. Introduction to Computer Theory, Daniel I.A. Cohen, 2nd Edition, Wiley India, 2008.<br/>
+3. Theory of Computation by V.Kulkarni, Oxford University Press, 2013.<br/>
+
+
+]]></string>
+    <string name="deSyllabus"><![CDATA[<b>Module I (15 Hrs)</b><br/><br/>
+<b>Introduction:</b>Number system and its representation in binary, octal, decimal and hexadecimal systems and its conversion, 1s and 2s complement representation of numbers, binary multiplication and division.<br/>
+<b>Logic Gates:</b>Functions, representations and truth tables of logic gates. Universal logic gates, Logic Simplification and Combinational Logic Design: Review of Boolean Algebra and DeMorgan’s Theorem, SOP & POS forms, Canonical forms, Karnaugh maps up to 4 variables, prime implicants Quine–McCluskey techniques, Binary codes and different types of Code Conversions. Error correcting and detecting code.<br/>
+<b>Combinational Circuits:</b> Half Adder, Full Adder, Half Subtractor, Full Subtractor, Serial and Parallel Adders, BCD Adder, Comparators, Multiplexers, Demultiplexers, different types of MUX designing circuits, Encoder, Decoder.<br/><br/>
+
+<b>Module II (12 Hrs)</b><br/>
+<b>Sequential Logic Design:</b> Building blocks like S-R, JK and Master-Slave JK FF, Edge triggered FF, Ripple and Synchronous counters, Shift registers, Finite state machines, Algorithmic State Machines charts.<br/><br/>
+
+<b>Module III (8 Hrs)</b><br/>
+<b>Algorithmic State Machines:</b> Salient features of the ASM chart-Simple examples- System design using data path and control subsystems- control implementations example of Weighing machine.><br/><br/>
+<b>Textbook(s):</b><br/>
+1. Morris Mano and Michael D. Ciletti, "Digital Design", 4th Ed., Pearson Education, 2008.<br/>
+2. C.H. Roth, "Fundamentals of Logic Design", 5th Ed. Cengage Learning, 2004.<br/>
+3. John F. Wakerly, “Digital Design: Principles & Practices”, 3rd Ed, PHI.<br/>
+4. A Anand Kumar, “Fundamentals of Digital Circuits”, 2nd Ed., PHI.<br/><br/>
+<b>Reference Book(s):</b><br/>
+1. R.P. Jain, “Modern digital Electronics”, Tata McGraw Hill, 4th edition, 2009.<br/>
+2. Douglas Perry, “VHDL”, Tata McGraw Hill, 4th edition, 2002.<br/>
+3. W.H. Gothmann, “Digital Electronics- An introduction to theory and practice”, PHI, 2nd edition, 2006.<br/>
+4. D.V. Hall, “Digital Circuits and Systems”, Tata McGraw Hill, 1989<br/>
+
+
+]]></string>
+    <string name="mathsIIISyllabus"><![CDATA[<b>Module-I (10 Hours)</b><br/>
+<b>Probability:</b> Introduction, Probability of an event, additive rule and multiplication rule, conditional probability, Bayes’ rule, random variable, discrete and continuous probability distribution, Joint probability distribution, Mathematical expectations, Variance and Co-variance of random variables, Mean and Co-variance of linear combination of random variables, Chebyshev theorem.<br/><br/>
+
+<b>Module-II (12 Hours)</b><br/>
+D<b>iscrete Probability Distribution:</b> Binomial and Multinomial, Hyper-geometric, Geometric, Poisson Distribution<br/>
+
+<b>Continuous Probability Distribution:</b> Uniform, Normal, Exponential Distribution, Weibull’s Distribution, Chi-square Distribution, <b>Sampling Distribution:</b> Sampling Distribution of s^2, t Distribution, F Distribution.<br/><br/>
+
+<b>Module-III (10 Hours)</b><br/>
+<b>Estimation of parameter:</b> methods of estimation, Estimating the mean of a single sample, Standard error, Prediction interval, Tolerance limits, Estimating the difference between means of two samples, Estimating proportion and variance of single sample, Estimating the difference between two proportions and variance of two samples, maximum likelihood estimation.<br/><br/>
+
+<b>Module-IV (13 Hours)</b><br/>
+<b>Testing of hypothesis:</b> one and two tailed tests, test on a single mean when variance is known, and variance is unknown. Test on two means, test on single mean and two mean populations. One and two sample tests for variance, chi-square test for goodness of fit and test for independence.<br/>
+
+
+
+]]></string>
+    <string name="engEcoSyllabus"><![CDATA[<b>Module 1: (10 Hours)</b><br/>
+<b>Engineering Economics:</b> Nature, Scope, Basic problems of an economy, Micro Economics and Macro Economics.<br/>
+<b>Demand:</b> Meaning of demand, Demand function, Law of Demand and its exceptions, Determinants of demand, Demand Estimation and Forecasting, Elasticity of demand & its measurement (Simple numerical problems to be solved), Supply-Meaning of supply, Law of supply and its exception, Determinants of supply, Elasticity of supply, Determination of market equilibrium (Simple numerical problems to be solved).<br/>
+<b>Production: </b>Production function, Laws of returns: Law of variable proportion, Law of returns to scale.<br/><br/>
+<b>Module 2: (10 Hours)</b><br/>
+Cost and revenue concepts, Basic understanding of different market structures, Determination of equilibrium price under perfect competition (Simple numerical problems to be solved), Break Even Analysis-linear approach (Simple numerical problems to be solved).<br/>
+<b>Banking:</b> Commercial bank, Functions of commercial bank, Central bank, Functions of Central Bank.<br/>
+<b>Inflation:</b> Meaning of inflation, types, causes, measures to control inflation.<br/>
+National Income:</b> Definition, Concepts of national income, Method of measuring national income.<br/><br/>
+<b>Module 3: (10 Hours)</b><br/>
+<b>Time value of money:</b> Interest - Simple and compound, nominal and effective rate of interest, Cash flow diagrams, Principles of economic equivalence.<br/>
+<b>Evaluation of engineering projects:</b> Present worth method, Future worth method, Annual worth method, Internal rate of return method, Cost benefit analysis for public projects.<br/>
+<b>Depreciation:</b> Depreciation of capital assert, causes of depreciation, Methods of calculating depreciation (Straight line method, Declining balance method), After tax comparison of project.<br/><br/>
+<b>Text Books:</b><br/>
+1. Riggs, Bedworth and Randhwa,” Engineering Economics”, McGraw Hill Education India.<br/>
+2. Deviga Vengedasalam,” Principles of Economics”, Oxford University Press.<br/>
+3. William G. Sullivan, Elin M. Wicks, C. Patric Koelling,” Engineering Economy”, Pearson.<br/>
+4. R. Paneer Selvam,” Engineering Economics”, PHI.<br/>
+5. S. P. Gupta,” Macro Economics”, TMH.<br/>
+6. S. B. Gupta,” Monetary Economics”, Sultan Chand and Co.<br/>
+
+
+]]></string>
+    <string name="oopjLabSyllabus"><![CDATA[<b>List of experiments to be done(Any 10) </b><br/><br/>
+    1. Simple Java programs using control structures, class, object, access specifier, static keyword.<br/>
+    2. Programs using constructor, this keyword, method overloading, Arrays<br/>
+    3. Programs using package, wrapper class, String class, StringBuffer class, StringTokenizer class<br/>
+    4. Programs using Exception handling, Inheritance concept, final keyword<br/>
+    5. Programs using Abstract class, Interface, Object cloning, Inner class<br/>
+    6. Programs on reading and writing on files<br/>
+    7. Programs on Multithreading<br/>
+    8. Programs on ArrayList, LinkedList, Set, Map, Stack<br/>
+    9. Programs on 2D graphics using Applet and AWT<br/>
+    10. Programs on event handling and Layout manager<br/>
+    11. Programs on Swing<br/>
+    12. Programs on Generic<br/>
+
+
+]]></string>
+    <string name="dataStructureLabSyllabus"><![CDATA[<b>Experiment No.1</b><br/>
+(a) Write a C program that implement Bubble Sort method to sort a given list of integers in ascending order.
+(b) Write a C program that implement merge Sort method to sort a given list of integers in ascending order.<br/>
+© Write a C program that implement Quick Sort method to sort a given list of integers in ascending order<br/><br/>
+<b>Experiment No.2</b><br/>
+(a) Write C program that implement the Linear search operation for a Key value in a given list of integers<br/>
+(b) Write C program that implement the Binary search operation for a Key value in a given list of integers<br/><br/>
+<b>Experiment No. 3</b><br/>
+(a) Write a C program to create a stack using an array and perform (i) push operation (ii) pop operation<br/>
+(b) Write a C program that uses Stack operations to perform the following: i) Converting infix expression into postfix expression ii) Evaluating the postfix expression<br/><br/>
+<b>Experiment No. 4</b><br/>
+(a) Write a C program to create a queue and perform i) Rear ii) front iii) Traversal<br/>
+(b) Write a C program to create a circular queue and perform i) insertion ii) deletion iii)
+Traversal<br/><br/>
+<b>Experiment No. 5</b><br/>
+Write a C program to create a Deque and perform i) insertion ii) deletion iii) Traversal<br/><br/>
+<b>Experiment No. 6</b><br/>
+Write a C program that uses functions to perform the following operations on Single linked
+list: i) Creation ii) Insertion iii) Deletion iv) Traversal<br/><br/>
+<b>Experiment No. 7</b><br/>
+Write a C program that uses functions to perform the following operations on Double linked
+list: i) Creation ii) Insertion iii) Deletion<br/><br/>
+<b>Experiment No. 8</b><br/>
+Write a C program that uses functions to perform the following operations on Binary Tree:
+i) Creation ii) Insertion iii) Deletion<br/><br/>
+<b>Experiment No.9</b><br/>
+Write a C program to implement the depth-first search algorithm.<br/><br/>
+<b>Experiment No.10</b><br/>
+Write a C program to implement the breadth-first search algorithm.<br/>
+
+
+]]></string>
+    <string name="daaSyllabus"><![CDATA[<b>Module- I (9 Hours)</b><br/>
+Introduction to design and analysis of algorithms, Asymptotic analysis of algorithms, Growth of Functions, Recurrences, solution of recurrences by substitution, Recursion Tree and Master methods<br/>
+<b>Design & Analysis of Divide and conquer algorithms:-</b>Merge sort, Quick sort , Strassen’s matrix multiplication<br/><br/>
+<b>Module – II (9 Hours)</b><br/>
+Greedy Algorithms - Elements of Greedy strategy, Activity- selection Problem, Fractional knapsack problem, Huffman codes<br/>
+<b>Dynamic programming algorithms:-</b>Elements of dynamic programming, The principle of optimality, Matrix-chain multiplication, Longest common subsequence, Assembly-line scheduling, <b>String matching:-</b>Naive String matching algorithm, Rabin-Karp algorithm<br/><br/>
+<b>Module – III(10 Hours)</b><br/>
+<b>Data structure for disjoint sets:-</b>Disjoint set operations, Linked list representation, Disjoint set forests<br/>
+<b>Graph Algorithms:-</b>Breadth First Search and Depth-First Search, Minimum Spanning Trees, Kruskal and Prims algorithms, Single Source Shortest Path (Bellman-ford and Dijkstras algorithms), All Pairs Shortest Paths (Floyd – Warshall Algorithm).<br/>
+<b>NP Completeness:-</b>Polynomial time solving, Polynomial time verification, NP - Completeness and reducibility, <b>NP Complete problems (without proof):</b>-Circuit Satisfiability problem, Hamiltonian cycle problem, Travelling Salesman Problem, Vertex Cover Problem<br/><br/>
+<b>Module – IV (08 Hours)</b><br/>
+<b>Back tracking algorithm:-</b>Knapsack problem, N-queen problem, Graph Coloring<br/>
+<b>Branch and Bound algorithm:-</b>0/1 knapsack algorithm, 15-puzzle
+Polynomials and Fast Fourier Transform (FFT)<br/><br/>
+<b>Text Book:</b><br/>
+1. Introduction to algorithms by T.H. Cormen, C.E. Leiserson, R.L. Rivest, C.Stein, 3rd Edition, MIT Press, 2009.<br/>
+2. Computer Algorithms by Ellis Horowitz, SartajSahni, SanguthevarRajasekaran, 2nd Edition, Silicon Press, 2008<br/><br/><br/>
+<b>Reference Book:</b><br/>
+1. Fundamentals of algorithms by Gilles Brassard, Paul Brately:, Pearson India , 2015<br/>
+2. Algorithm Design by Goodrich, Tamassia, Wiley India<br/>
+3. The Algorithm Design Manual, Steven S. Skiena, Second Edition, Springer<br/>
+
+
+]]></string>
+    <string name="discreteSyllabus"><![CDATA[<b>Module-I</b><br/>
+Introduction to proofs, Proofs methods and strategy, Mathematical induction, Strong induction and well ordering, The basics of counting, The Pigeonhole principle, Inclusion and exclusion principle and its applications.<br/><br/>
+
+<b>Module-II</b><br/>
+Recurrence relations, solving linear recurrence relations, generating functions, Solving recurrence relation by generating functions.<br/>
+Graphs and graph models, Graph terminology and special types of graphs, Matrix representation of graphs and graph isomorphism, Connectivity, Euler, and Hamilton paths. Tree: Binary Tree, Searching, Tree traversal, Spanning Tree, DFS, Minimum Spanning Tree.<br/><br/>
+
+<b>Module-III</b><br/>
+Algebraic systems, Semi groups and monoids, Groups, Subgroups, Homomorphisms, Normal subgroup and cosets, LaGrange Theorem, Definition and examples of Rings and Fields. Partial ordering, Posets, Lattices as posets, Properties of lattices, Lattices as algebraic systems, Sub lattices, Direct product and homomorphism, Boolean algebra.<br/><br/>
+
+<b>Text Books:</b><br/>
+1.	Kenneth H.Rosen, “Discrete Mathematics and its Applications”, 7th Edition, Tata McGraw Hill Pub. Co. Ltd., New Delhi, Special Indian Edition, 2011.<br/>
+2.	C.L. Liu and D. Mohaptra, “Elements of Discrete Mathematics”, Third Edition, 2008, Tata McGraw Hill Education, New Delhi<br/><br/>
+<b>REFERENCES:</b><br/>
+1.	Ralph.P.Grimaldi, “Discrete and Combinational Mathematics: An Applied Introduction”, 4th Edition, Pearson Education Asia, Delhi, 2007<br/>
+2.	Thomas Koshy, “Discrete Mathematics with Applications”, Elsevier Publications, 2006.<br/>
+3.	Seymour Lipshutz and Mark Lipson., “Discrete Mathematics”, Schaum’s Outlines, Tata McGraw Hill Pub. Co. Ltd., New Delhi, 3rd Edition, 2010<br/>
+
+]]></string>
+    <string name="databaseSyllabus"><![CDATA[<b>Module I: (9 Hours)</b><br/>
+Introduction to database Systems, advantages of database system over traditional file system, Basic concepts & Definitions, Database users, Database Language, Database System Architecture, Schemas, Sub Schemas, & Instances, database constraints, 3-level database architecture, Data Abstraction, Data Independence, Mappings, Structure, Components & functions of DBMS, Data models.<br/><br/>
+<b>Module II (9 Hours)</b><br/>
+Entity relationship model, Components of ER model, Mapping E-R model to Relational schema, Network and Object Oriented Data models, Storage Strategies: Detailed Storage Architecture, Storing Data, Magnetic Disk, RAID, Other Disks, Magnetic Tape, Storage Access, File & Record Organization, and File Organizations & Indexes.<br/><br/>
+<b>Module III: (9 Hours)</b><br/>
+Relational Algebra, Tuple & Domain Relational Calculus, Relational Query Languages:</b>SQL and QBE. Database Design: Database development life cycle (DDLC), Automated design tools, Functional dependency and Decomposition, Join strategies, Dependency Preservation & lossless Design, Normalization, Normal forms:1NF, 2NF,3NF, and BCNF, Multi-valued Dependencies, 4NF&5NF. <b>Query processing and optimization:</b> Evaluation of Relational Algebra Expressions, Query optimization, Query cost estimation.<br/><br/>
+<b>Module IV: (9 Hours)</b><br/>
+<b>Transaction processing and concurrency control:</b>Transaction concepts, properties of transaction, concurrency control, locking and Timestamp methods for concurrency control schemes. Database Recovery System, Types of Data Base failure, Types of Database Recovery, Recovery techniques, Fundamental concepts on Object-Oriented Database, Data warehousing & Data Mining and Big data and No SQL<br/><br/>
+<b>Text Book:</b><br/>
+1. Database System Concepts by Sudarshan&Korth, 6th edition, McGraw-Hill Education, 2011.<br/>
+2. Fundamentals of Database System by Elmasari&Navathe, Pearson Education, 2008.<br/><br/>
+<b>References Books:</b><br/>
+1. Database Management Systems by R. Ramakrishnan, 3rd edition, McGraw-Hill Education, 2003.<br/>
+2. Database Management Systems By R.Panneerselvam , 3rd Edition, PHI, 2018<br/>
+3. Introduction to Database Management Systems By AtulKahate, PEARSON<br/>
+
+
+]]></string>
+    <string name="coaSyllabus"><![CDATA[<b>Module – I (12 Hrs)</b><br/>
+<b>Basic Structure of Computers:</b>Computer Architecture vs Computer Organization, Functional Units, Basic Operational Concepts, Bus Structures, Software, Performance<br/>
+<b>Machine Instructions and Programs:</b>Memory Locations and Addresses, Big-Endian and Little-Endian Assignments, Memory Operations, Instruction Set:Instruction Format, Instruction Types(RISC and CISC architecture), Instruction Execution and Straight-Line Sequencing, Branching, Addressing Modes, Basic Input/Output Operations, Subroutines, Additional Instructions.<br/><br/>
+<b>Module – II (12 Hrs)</b><br/>
+<b>Arithmetic:</b>Fixed point and Floating point representation, Addition and Subtraction of Signed Numbers, Design of Fast Adders, Multiplication of Positive Numbers, Signed-Operand Multiplication- Booth’s algorithm , Fast Multiplication, Integer Division<br/>
+<b>Basic Processing Unit:</b> Fundamental Concepts, Execution of a Complete Instruction, Hardwired Control, Microprogrammed Control.<br/><br/>
+<b>Module – III (12 Hrs)</b><br/>
+<b>Memory System:</b>Basic Concepts, Memory Hierarchy, Cache Memory, Cache Memory Mapping Functions, Replacement Algorithms<br/>
+<b>Multiple-Bus Organization:</b>IO bus - SCSI bus, ISA bus, Bus Control – Synchronous bus, Asynchronous bus, Bus Arbitration<br/><br/>
+<b>Text Books:</b><br/>
+1. Computer Architecture and Organization: John P.Hayes, McGraw Hill, 3rd Edition, 2012<br/>
+2. Computer Architecture and Organization: William Stallings, Pearson Education 10th Edition, 2017<br/>
+3. Computer Organization: Carl Hamacher, ZvonkoVranesic, SafwatZaky, McGraw Hill, 5th Edition, 2002<br/><br/>
+<b>Reference Books:</b><br/>
+1. Computer System Architecture: Morris M. Mano, PHI, 3rd edition, 2007<br/>
+2. Computer Architecture and Organization: Design Principles and Applications By Govindarajalu, 8th Reprint, TMH<br/>
+
+
+]]></string>
+    <string name="oBSyllabus"><![CDATA[<b>Module 1: (10 Hours)</b><br/>
+<b>The study of Organizational Behaviour:</b> Definition, Meaning, Why study OB; Learning - Principles of learning and learning theories; Personality- Meaning, Determinants, Types, Personality and OB; Perception- Perceptual Process, perceptual errors, Importance of perception in organizations; Motivation-Nature and Importance, Theories of motivation (Herzberg, Maslow, McGregor).<br/><br/>
+<b>Module 2: (10 Hours)</b><br/>
+<b>Group level:</b> Groups in Organizations -Nature, Types, Reasons behind forming groups, Determinants, factors contributing to Group Cohesiveness, Group Decision Making- Process, advantages and disadvantages; Team- Effective Team Building; Types of Leadership- Effective Leadership, Styles of leadership, Leadership Theories-Trait Theory and Contingency Theory, Leadership and Followership; Conflict- Healthy Vs Unhealthy conflict, Conflict Resolution Techniques.<br/><br/>
+<b>Module 3: (10 Hours)</b><br/>
+<b>Structural level:</b> Organizational Culture: culture and organizational effective- ness; Organizational Change: Types of change, Reasons to change, Resistance to change and to manage resistance. Introduction to organizational development.<br/><br/>
+<b>Text Books:</b><br/>
+1. Stephens P. Robbins, Organizational Behaviour, PHI.<br/>
+2. K. Aswatthappa, Organizational Behaviour, HPH.<br/><br/>
+<b>Reference Books:</b><br/>
+1. Kavita Singh, Organizational Behaviour, Pearson.<br/>
+2. D. K. Bhattacharya, Organizational Behaviour, OUP.<br/>
+3. Pradeep Khandelwal, Organizational Behaviour, TMH.<br/>
+4. Keith Davis, Organizational Behaviour, McGraw Hill.<br/>
+5. Nelson Quick, ORGB, Cengage Learning.<br/>
+
+]]></string>
+    <string name="evsSyllabus"><![CDATA[<b>UNIT – I</b><br/>
+An Introduction to – Multidisciplinary nature of Environmental Studies.<br/>
+The Earth and Biosphere (The Earth Science)<br/>
+<b>Ecology:</b> Concept and Principle of Ecology, Ecological Succession, Population Ecology, Community Ecology, Relationship, Human Ecology, Origin and Evolution of Life, Plant and Speciation.<br/>
+<b>Ecosystems:</b> Definition, Properties, Function and Structure of Ecosystem. Ecological Balance: Cause, Food chains, food webs, Flow of Energy, Ecological Pyramids, Types of Ecosystem: Land, Aquatic and Artificial ecosystem. Biogeochemical cycles, Bioaccumulation, Bio magnification, ecosystem value, Degradation of Ecosystem.<br/>
+Bio-diversity and Conservation<br/>
+<b>Natural Resources:</b> Classification of Resources, Conservation of Resources, Environmental Degradation, Equitable use of Resources for Sustainable Life styles, Role of Individual in Conservation of natural Resources.<br/>
+<b>Water Resources:</b> Sources, Status of World and Indian’s Water Resources, Over Utilization of Water, Conservation, Flood and Control measure, Others.<br/>
+Mineral Resources. Land Resources, Energy Resources, Food Resources, etc.: Classification, Conservation, Environmental Impacts.<br/><br/>
+<b>UNIT – II</b><br/>
+<b>Environmental Pollution:</b> Types of Pollution and Control Measures, Role of Individual in Pollution Prevention.<br/>
+<b>Waste Management:</b> MSW, WM Techniques, Agricultural Solid Waste Management and Legislation on Solid Waste management.<br/>
+<b>Disaster Management:</b> Objectives, Type of Disaster. Elements, Organisational Set- up, NDMA, Preparedness, Mitigation, Prevention, Response.<br/>
+<b>Environment and Development:</b> Social Issues, environmental Ethics, Sustainable Development, Sustainable Energy and materials, Environmental Challenges,: Climate Change, Green House Effect, Global Warming, Ozone Layer Depletion, Protection of Ozone Layer, Acid Rain, EL Nino, Waste land and its Reclamation<br/>
+Human Population and the Environment: Pupation Growth and Explosion, Pupation Growth and Environment, Family Welfare Programme, Women and Child welfare, HIV/ AIDS, Environment and Health, Human Rights, Value of Education.<br/>
+<b>Resettlement and Rehabilitation:</b> Introduction, Social Impact Assessment, Methodology of SIA, Land Acquisition and Impact, Stake holder participation and consultation, Socio-economic Issue,, Mitigation Measure.<br/>
+Rehabilitation Action Plan, Legal Frame work, Training and capacity Building, Grievance and Redressal Mechanism.<br/><br/>
+<b>UNIT - III</b><br/>
+<b>Environmental Protection:</b> Introduction, International efforts, Government Effort, environmental Organisations, Public Awareness, Environmental Education and Training, Green Building, Clean Development Mechanism, carbon Credits.
+Environmental Legislation: Environmental Legal Framework, environmental Protection Act, 1986, the Air Act 1981, Water Act 1974, Wild Life Act, 1972, Forest Conservation Act, 1980.<br/>
+<b>Environmental Management:</b> Environmental Impact Assessment, TOR for EIA, EIA Methodology (Brief), Baseline Data, Environmental Clearance, MoEF Notification Dated September 2006, Stake holder in EIA Process
+Environment Management and EMP: Introduction, Issues covered, Environmental Management System- ISO-14000, Institution and Implementation Arrangement, Mitigation measures, Environmental Monitoring, Environmental Auditing.<br/><br/>
+<b>TEXT BOOKS:</b><br/>
+1. Environmental Studies(Concept, Impacts, Mitigation and management) by M. P. Poonia and S. C. Sharama, Khana Book Publishing Co. (P) T Ltd. 2019 Edition<br/>
+2. Textbook of Environmental Studies for Undergraduate Courses by Erach Bharucha for University Grants Commission.
+3. Environmental Studies by R. Rajagopalan, Oxford University Press.<br/><br/>
+<b>REFERENCE BOOKS:</b><br/>
+1. Environmental Science: towards a sustainable future by Richard T. Wright. 2008 PHL Learning Private Ltd. New Delhi.<br/>
+2. Environmental Engineering and science by Gilbert M. Masters and Wendell P. Ela. 2008 PHI Learning Pvt. Ltd.<br/>
+3. Environmental Science by Daniel B. Botkin & Edward A. Keller, Wiley INDIA edition.<br/>
+4. Environmental Studies by Anubha Kaushik, 4th Edition, New age international publishers.<br/>
+5. Text book of Environmental Science and Technology - Dr. M. Anji Reddy 2007, BS Publications.<br/>
+
+
+]]></string>
+    <string name="daaLabSyllabus"><![CDATA[<b>Implementation and Analysis of (Any 10)</b><br/>
+1. Linear Search and Binary Search Algorithm<br/>
+2. Quick Sort and Merge Sort Algorithm<br/>
+3. Heap Sort Algorithm<br/>
+4. Matrix Chain Multiplication Algorithm<br/>
+5. Longest Common Subsequence Algorithm<br/>
+6. Fractional Knapsack Algorithm<br/>
+7. Huffman Code Algorithm<br/>
+8. Breadth First Search and Depth First Search Algorithm<br/>
+9. Kruskal Algorithm and Prim’s Algorithm<br/>
+10. Bellman Ford Algorithm/Floyd-Warshall Algorithm<br/>
+11. Dijkstra’s Algorithm<br/>
+12. Rabin-Karp pattern matching algorithm<br/>
+
+
+]]></string>
+    <string name="dmsLabSyllabus"><![CDATA[<b>DATABASE LAB</b><br/>
+    1. Use of SQL syntax: insertion, deletion, join, updation using SQL.<br/>
+2. Programs on join statements and SQL queries including where clause.<br/>
+3. Programs on procedures and functions.<br/>
+4. Programs on database triggers<br/>
+5. Programs on packages.<br/>
+6. Programs on data recovery using check point technique.<br/>
+7. Concurrency control problem using lock operations.<br/>
+8. Programs on ODBC using either VB or VC++.<br/>
+9. Programs on JDBC. (1 class)<br/>
+10. Programs on embedded SQL using C / C++ as host language<br/>
+
+
+]]></string>
+    <string name="coaLabSyllabus"><![CDATA[<b>COMPUTER ORGANIZATION LAB</b><br/>
+    Experiment 1 - To recognize various components of PC<br/>
+Experiment 2 - Dismantling and assembling a PC.<br/>
+Experiment 3 - Study of Motherboard<br/>
+Experiment 4 - Study of SMPS<br/>
+Experiment 5 - Study of Printer<br/>
+Experiment 6 - Study of Microprocessor<br/>
+Experiment 7 - Design and verify Half-Adder & Full-Adder using VHDL code.<br/>
+Experiment 8 - Design and verify multiplexer & de-multiplexer using VHDL code.<br/>
+Experiment 9 - Simulation of ALU using VHDL code.<br/>
+Experiment 10 - Simulation of CPU using VHDL code.<br/>
+
+
+]]></string>
+    <string name="osSyllabus"><![CDATA[<b>MODULE-I (12 Hours)</b><br/>
+<b>INTRODUCTION TO OPERATING SYSTEM:</b> Basics of Computer System Architecture and Organization, Simple Batch Systems, Multiprogramming and Time Sharing systems. Personal Computer Systems, Parallel Systems, Distributed Systems and Real time Systems, Operating System Services, Operating System Operations, System calls, Operating System Structures<br/>
+<b>PROCESS MANAGEMENT:</b> Process Concept, Process Scheduling, Operation on Processes, Interprocess communication, Threads, Multithreading Models, Thread Libraries, Threading Issues, Process Scheduling Basic concepts, scheduling criteria, scheduling algorithms, Thread Scheduling.<br/><br/>
+<b>MODULE-II (12 Hours)</b><br/>
+<b>PROCESS SYNCHRONIZATION:</b> The Critical section problem, Peterson’s solution, Synchronization hardware, Semaphores, Classical problems of synchronization, Monitors.<br/>
+<b>DEADLOCKS:</b> System model, Deadlock Characterization Methods for Handling Deadlocks, Deadlock Prevention, Deadlock avoidance, Deadlock Detection, recovery from Deadlock.<br/>
+<b>MEMORY MANAGEMENT:</b> Memory Management strategies, Logical versus Physical Address space, swapping, contiguous Allocation, Paging, Segmentation.<br/>
+<b>Virtual Memory:</b> Background, Demand paging, performance of Demand paging, Page Replacement, Page Replacement Algorithms, Allocation of frames, Thrashing, Demand Segmentation.<br/>
+<b>MODULE-III (11 Hours)</b><br/><br/>
+<b>STORAGE MANAGEMENT:</b> File System Concept, Access Methods, File System Structure, File System Structure, File System Implementation, Directory implementation, Efficiency and Performance, Recovery, Overview of Mass Storage Structure, Disk Structure, Disk Scheduling, Disk Management, Swap-Space Management, I/O System Overview, I/O Hardware, Application I/O Interface, Kernel I/O Subsystem, Transforming I/O Request to Hardware Operation.<br/><br/>
+<b>TEXT BOOK:</b><br/>
+1. Operating System Concepts – Abraham Silberschatz, Peter Baer Galvin, Greg Gagne, 8th edition, Wiley-India, 2009.<br/>
+2. Operating Systems: Internals And Design Principles- William Stallings, 6th Edition, Pearson, 2009<br/><br/>
+<b>REFERENCE BOOK:</b><br/>
+1. Principles of Operating Systems-Naresh Chauhan, Oxford University Press, 2014<br/>
+2. Modern Operating Systems – Andrew S. Tanenbaum, 3rd Edition, PHI<br/>
+3. Operating Systems: A Spiral Approach – Elmasri, Carrick, Levine, TMH Edition<br/>
+4. Operating Systems – H.M. Deitel, P. J. Deitel, D. R. Choffnes, 3rd Edition, Pearson<br/>
+
+
+]]></string>
+    <string name="computerNetworkSyllabus"><![CDATA[<b>Module -I (12Hrs)</b><br/>
+Overview of Data Communication Networks, Protocols and standards, OSI Reference model,TCP/IP Protocol. <b>Physical Layer:</b> Analog Signals, Digital Signals, Data Rate Limits, Transmission Impairment, Data rate limit, <b>Digital Transmission:</b> Digital-to-Digital conversion, Analog-to-Digital conversion, Transmission modes, <b>Analog Transmission:</b> Digital-to-Analog conversion, Analog-to-Analog conversion, <b>Multiplexing:</b> Frequency Division Multiplexing (FDM), Wave Division Multiplexing(WDM), Time Division Multiplexing (TDM), Transmission <b>Media:</b> Guided Media (Twisted-Pair Cable, Coaxial Cable and Fiber-Optic Cable) and unguided media (wireless), <b>Switching:</b> Circuit Switched Network, Datagram Network, Virtual-Circuit Network , Telephone Network, Dial-up Modems and Digital Subscriber Lines.<br/><br/>
+<b>Module-II (9Hrs)</b><br/>
+<b>Error Detection and correction:</b> Types of Errors, Error Detection mechanism (Linear codes, CRC, Checksum), <b>Error Correction mechanism:</b> Hamming Encoding. <b>Data Link Control and Protocols:</b> Flow and Error Control, Stop-and-Wait ARQ. Go-Back-N ARQ, Selective Repeat ARQ, HDLC and Point-to-Point Protocol, <b>Multiple Access:</b> Random Access (ALOHA, CSMA, CSMA/CD, CSMA/CA), Controlled Access (Polling, Reservation, Token Passing), Channelization (FDMA, TDMA, CDMA).<b>Wired LANs (Ethernet):</b> Traditional Ethernet, Fast Ethernet, Gigabit Ethernet.<br/><br/>
+<b>Module-III (9Hrs)</b><br/>
+<b>Wireless LANs:</b> IEEE 802.11 and Bluetooth. Connecting Devices: Passive Hub, Repeater, Active Hub, Bridge, Two layers Switch, Router, Three layers Switch, Gateway. <b>Virtual Circuit Networks:</b> Frame Relay, Architecture & layers, ATM: Design goals, Architecture &layers. <b>Network Layer:</b> IPV4 addresses, IPV6 addresses, <b>Internet Protocol:</b> Internetworking, IPV4 datagram, IPV6 packet format and advantages. <b>Network Layer Protocols:</b> ARP, RARP, IGMP and ICMP. <b>Routing:</b> Unicast Routing Protocols and Multicast Routing Protocols. <b>Transport Layer:</b> Process to Process Delivery, User Datagram Protocol (UDP) and Transmission Control Protocol (TCP).<br/><br/>
+<b>Module-IV (06Hrs)</b><br/>
+<b>Domain Name System (DNS):</b> Name Space, Domain Name Space, DNS in Internet, Resolution and Dynamic Domain Name System (DDNS), Remote logging, Electronic Mail (SMTP) and file transfer (FTP), <b>Security services:</b> Message confidentiality, integrity, authentication, non-repudiation, entity authentication, digital signature, key management<br/><br/>
+<b>Text Books:</b><br/>
+1. Data Communications and Networking, Behrouz A. Forouzan,(5th Edition) Tata McGraw-Hill.<br/>
+2. Computer Networks, A. S. Tannenbum, D. Wetherall,(5th Edition) Prentice Hall, Imprint of Pearson.<br/><br/>
+<b>Reference Book:</b><br/>
+1. Network for Computer Scientists & Engineers, Zheng, Oxford University Press.<br/>
+2. Computer Networks A system Approach, Larry L, Peterson and Bruce S. Davie, Elsevier.<br/>
+3. Computer Networks, Natalia Olifer, Victor Olifer, Willey India.<br/>
+4. Data and Computer Communications, William Stallings, Prentice Hall,Pearson.<br/>
+
+
+]]></string>
+    <string name="compilerDesignSyllabus"><![CDATA[<b>Module-1: 12 Hrs</b><br/>
+<b>Overview of the Translation Process:</b> A Simple Compiler, Difference between interpreter, assembler and compiler. Overview and use of linker and loader, types of Compiler, Analysis of the Source Program, The Phases of a Compiler, Cousins of the Compiler, The Grouping of Phases, Lexical Analysis, Hard Coding and Automatic Generation Lexical Analyzers, Front-end and Back-end of compiler, pass structure. <b>Lexical Analyzer:</b> Introduction to Lexical Analyzer, Input Buffering, Specification of Tokens, Recognition of Tokens, A Language for Specifying Lexical Analyzers, Finite Automata From a Regular Expression, Design of a Lexical Analyzer Generator, Optimization of DFA<br/><br/>
+<b>Module-2: 12 Hrs</b><br/>
+<b>Parsing Theory:</b> Top Down and Bottom up Parsing Algorithms, Top-Down Parsing, Bottom-Up Parsing, Operator-Precedence Parsing, LR Parsers, Using Ambiguous Grammars, Parser Generators, Automatic Generation of Parsers. Syntax-Directed Definitions, Construction of Syntax Trees, Bottom-Up Evaluation of S-Attributed Definitions, L-Attributed Definitions, Syntax Directed Definitions and translation schemes. <b>Error Recovery:</b> Error Detection & Recovery, Ad-Hoc and Systematic Methods<br/>
+<b>Intermediate Code Generation:</b> Different Intermediate Forms, Syntax Directed Translation Mechanisms and Attributed Mechanisms and Attributed Definition.<br/><br/>
+<b>Module-3: 12 Hrs</b><br/>
+<b>Code Generation:</b> Issues in the Design of a Code Generator, The Target Machine, Run-Time Storage Management, Basic Blocks and Flow Graphs, Next-Use Information, A Simple Code Generator, Register Allocation and Assignment, The DAG Representation of Basic Blocks, Peephole Optimization, Generating Code from DAGs, Dynamic Programming Code-Generation Algorithm, Code Generator Generators. Code Optimization: Global Data Flow Analysis, A Few Selected Optimizations like Command Sub Expression Removal, Loop Invariant Code Motion, Strength Reduction etc.<br/><br/>
+<b>Text Books:</b><br/>
+1. Compilers: Principles, Techniques and Tools By Aho, Lam, Sethi, and Ullman, Second Edition, Pearson, 2014<br/>
+2. Compilers: Principles, Techniques and Tools By Aho, Sethi, and Ullman, Addison-Wesley, 1986<br/><br/>
+<b>Reference Books:</b><br/>
+1. Compiler Design in C By Allen I. Holub, Prentice-Hall/Pearson.<br/>
+2. Advanced Compiler Design and Implementation By Muchnick, Morgan and Kaufmann, 1998<br/>
+
+
+]]></string>
+    <string name="aISyllabus"><![CDATA[<b>Module 1 : (12 Hrs)</b><br/>
+<b>Introduction to AI, AI Technique, Level of the Model, Problem Spaces, and Search:</b> Defining the Problem as a State Space Search, Production Systems, Problem Characteristics, Production System Characteristics, Issues in the Design of Search Programs. Heuristic Search Techniques: Generate-and-Test, Hill Climbing, Solution space search , Beam search Best-first Search, Problem Reduction, Constraint Satisfaction, Means-ends Analysis, Knowledge Representation: Representations and Mappings, Approaches to Knowledge Representation, Using Predicate Logic: First Order Logic (FOL),Representing Simple Facts in Logic, Representing Instance and ISA Relationships, Computable Functions and Predicates, Resolution, Natural Deduction. Using Rules: Procedural Versus Declarative Knowledge, Logic Programming, Forward Versus Backward Reasoning, Matching, Control Knowledge.<br/><br/>
+<b>Module 2: (12 Hrs)</b><br/>
+<b>Symbolic Reasoning Under Uncertainty:</b> Introduction to Nonmonotonic Reasoning, Logics for Nonmonotonic Reasoning, Implementation Issues, Augmenting a Problem-solver, Depth-first Search, Breadth-first Search. Weak and Strong Slot-and-Filler Structures: Semantic Nets, Frames, Conceptual Dependency Scripts, CYC. Game Playing: The Minimax Search Procedure, Adding Alpha-beta Cutoffs, Iterative Deepening. Planning: The Blocks World, Components of a Planning System, Goal Stack Planning, Sussmans Anomaly, Nonlinear Planning Using Constraint Posting, Hierarchical Planning Other Planning Techniques. Understanding: What is Understanding, What Makes Understanding Hard?, Understanding as Constraint Satisfaction.<br/><br/>
+<b>Module 3 : (12 Hrs)</b><br/>
+<b>Natural Language Processing:</b> Introduction, Syntactic Processing, Semantic Analysis, Discourse and Pragmatic Processing, Statistical Natural Language Processing, Spell Checking. Learning: Rote Learning, Learning by Taking Advice, Learning in Problem-solving, Learning from Examples: Induction, Explanation-based Learning, Discovery, Analogy, Formal Learning Theory, Neural Net Learning and Genetic Learning. Expert Systems: Representing and Using Domain Knowledge, Expert System Shells, Explanation, Knowledge Acquisition.<br/><br/>
+<b>Text Book:</b><br/>
+1. Elaine Rich, Kevin Knight, &Shivashankar B Nair, Artificial Intelligence, McGraw Hill,3rd ed.,2009<br/><br/>
+<b>Reference Books:</b><br/>
+1. Introduction to Artificial Intelligence & Expert Systems, Dan W Patterson, PHI.,2010<br/>
+2. S Kaushik, Artificial Intelligence, Cengage Learning, 1st ed.2011<br/>
+3. Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach, 2nd edition.<br/>
+
+
+]]></string>
+    <string name="ecommerceSyllabus"><![CDATA[<b>Module –I (12 Hrs)</b><br/>
+<b>Introduction to E-commerce:</b> Traditional Commerce and E-Commerce, Categories of E-Commerce, Framework of E-Commerce, Elements of E-Commerce: Network Infrastructure, Information Distribution Technology, Network Multimedia Content Publishing Technology, Security and Encryption, Payment Services, Business Service Infrastructure, Public Policy and Legal Infrastructure
+<b>Technology Infrastructure:</b> Internet Protocols
+<b>Web Server Software:</b> Web Server Basics, Software for Web Servers, Basic Functions of E-Commerce Software<br/><br/>
+<b>Module–II (12 Hrs)</b><br/>
+Security Threats to E-Commerce, Implementing E-Commerce Security<br/>
+<b>Selling on the Web:</b> Revenue Models for Selling on the Web, Revenue Strategy Issues, Website Usability<br/>
+<b>Marketing on the Web:</b> Web Marketing Strategies, Customer Relationship Intensity and Life-Cycle Segmentation, Advertising on the Web<br/><br/>
+<b>Module–III (12 Hrs)</b><br/>
+<b>Business-to-Business Strategies:</b> Electronic Data Interchange (EDI), Electronic Marketplaces<br/>
+Web Auctions, Mobile Commerce, Virtual Communities<br/>
+<b>Payment Systems for E-commerce:</b> Online payments Basics, Payment Cards, Electronic Cash, Electronic Wallets, Stored-Value Cards<br/><br/>
+
+<b>Textbooks</b><br/>
+1. Ecommerce, Gary P. Schneider, 4th Edition, Cengage Learning<br/>
+2. Electronic Commerce: Framework Technologies & Applications, Bharat Bhasker, TMH<br/><br/>
+
+<b>Reference Books</b><br/>
+1. Electronic Commerce: A Manager’s Guide, Kalakota & Whinston, Pearson<br/>
+2. E-commerce: Concepts, models & strategies, C.V.S Murthy, Himalaya Publishing.<br/>
+
+
+]]></string>
+    <string name="advancedJavaSyllabus"><![CDATA[<b>UNIT I (12 hrs)</b><br/>
+Enterprise Application Architecture, Enterprise Java Technologies, Web Applications, Servlet Overview, Servlet API, Writing HelloWorld Program using Servlet, Servlet Life Cycle, Configuring Servlet in web.xml, Retrieving information from Request object, HTML form processing using Servlet, Servlet Initialization, Session tracking, Cookies, Database Access using Servlet, Error Handling, Servlet Collaboration, Forward verses Redirect.<br/>
+<b>Overview of JSP, JSP Advantages, JSP Application Models:</b> JSPModel1 and Model 2 architectures, Life Cycle of a JSP page, JSP Elements, JSP Comments, Scripting in JSP, Directives, Implicit Objects, Action Tags, JSP and Java Beans, Introduction to JSTL, Introduction to JSP Expression Language.<br/><br/>
+<b>UNIT II (10 hrs)</b><br/>
+Introduction to JSF, Features, Benefits of JSF, JSF Architecture, JSF Elements, Request Processing Life Cycles, JSF HTML tags, JSF Core tags, Standard UI components, Managed Beans, Event handling, Page Navigation, convertors, validators, Expression Language, Using AJAX with JSF, sending AJAX Request;<br/><br/>
+<b>UNIT III (14 hrs)</b><br/>
+<b>Enterprise JavaBeans Technology:</b> EJB Component Architecture, Role of EJB& its life cycle, Types of Beans, Session Beans, Stateless and Stateful beans, Message Driven Bean, Life Cycle, Managing Transactions in EJB;<br/>
+<b>Understanding Java Persistence:</b> Object Relational Mapping, Java Persistence API, Benefits, components of JPA, Entity, Entity manager, Persistence unit, Life cycle of Entity, Entity Relationships, querying entities, Java Persistence Query Language, performing CRUD operations using JPA; Introducing Hibernate.<br/>
+Overview of SOA, Web Services, Types of Web Service, Building Web services with JAX-WS;<br/><br/>
+
+<b>Text Books:</b><br/>
+1. Java Server Programming (Java EE 7) Black Book, by DT Editorial Services, Dreamtech Press, 2015.<br/>
+
+<b>References:</b><br/>
+1. Eric Jendrock, Ricardo Cervera-Navarro, Ian Evans, Kim Haase, William Markito, “The Java EE 7 Tutorial”, 5th Edition, Addison-Wesley Professional, Pearson India, 2014.<br/>
+2. Advanced Java Technology by MT Savaliya, Dreamtech Press, 2015.<br/>
+3. David Geary, Cay S. Horstmann, “Core Java Server Faces”, Third Edition, 2010, Pearson Education, Inc. New Delhi.<br/>
+
+
+]]></string>
+    <string name="advancedCoaSyllabus"><![CDATA[<b>Module 1: (12Hrs)</b><br/>
+<b>Processor Architecture:</b>Evolution of Microprocessors, Instruction set processor design, Principles of processor performance, Instruction-level Parallelism, RISC and CISC architectures, Pipelining fundamentals, Arithmetic and instruction pipelining, Pipeline hazards, Minimizing pipeline stalls, Branch Prediction, superscalar and superpipelined architectures.<br/><br/>
+<b>Module 2:(12Hrs)</b><br/>
+<b>Memory and I/O Architecture:</b>Hierarchical memory technology; Multi-level caches, Data and Instruction caches, Cache optimizations, <b>Memory Management hardware, I/O systems:</b> Peripheral and Processor-Memory buses, Split transaction buses , USB.<br/><br/>
+<b>Module 3:(12Hrs)</b><br/>
+<b>Multiprocessor Architecture:</b>Basic multiprocessor architecture, Cache coherence, multithreaded processors, VLIW processor architectures. Array and vector processors. <b>Case studies:</b>MIPS architecture, Intel Series of processors, Pentium’s Internally RISC and externally CISC, Hyper threading, SPARC and ARM processors.<br/><br/>
+<b>Text Book</b><br/>
+1. David A. Patterson and John L. Hennessy, Computer Organization and Design, Elsevier, Fourth Edition<br/>
+2. John Paul Shen and MikkoLipasti, Modern Processor Design, Tata McGraw Hill.<br/><br/>
+<b>Reference Books</b><br/>
+1. DezsoSima, Terence Fountain, and Peter Kacsuk, Advanced Computer Architecture: A Design Space Approach, by Addison Wesley<br/>
+2. John L. Hennessy & David A. Patterson, Computer Architecture, A Quantitative Approach 4th Edition, Morgan Kaufmann.<br/>
+3. Hwang &Jotwani, Advance Computer Architecture, TMH<br/>
+
+
+]]></string>
+    <string name="osLabSyllabus"><![CDATA[<b>OPERATING SYSTEM LAB</b><br/>
+1. Basic UNIX Commands.<br/>
+2. Linux Administrative commands.<br/>
+3. UNIX Shell Programming.<br/>
+4. Programs on process creation and synchronization, inter process communication including shared memory, pipes and messages.<br/>
+5. Programs on process synchronization, (DinningPhilosopher problem / Cigarette Smoker problem / Sleeping barber problem)<br/>
+6. Programs on UNIX System calls.<br/>
+7. Simulation of CPU Scheduling Algorithms. (FCFS, RR, SJF, Priority, Multilevel Queuing)<br/>
+8. Simulation of Banker’s Algorithm for Deadlock Avoidance, Prevention<br/>
+9. Program for FIFO, LRU, and OPTIMAL page replacement algorithm.<br/>
+10. Programs on Multithreading<br/>
+
+
+]]></string>
+    <string name="computerNetworkLabSyllabus"><![CDATA[<b>COMPUTER NETWORKS LAB</b><br/>
+1. Study of various network devices and network topologies<br/>
+2. Implementation of cross-wired and straight-through cable using crimping tool<br/>
+3. IP address configuration, network setup, troubleshooting and various network management commands<br/>
+4. Building Class A, B and C networks using packet tracer software<br/>
+5. Implementation of sub-netting concept using packet tracing software<br/>
+6. Simulation of Hub Vs Switch networks by means of throughput and collision analysis using network simulator<br/>
+7. Simulation of CSMA/CA Vs CSMA/CD using network simulator<br/>
+8. Implementation of LSR and DVR routing protocols using network simulator<br/>
+9. Installation of “ns2” in Linux environment<br/>
+10. Basic wired and wireless topology in ns2 environment<br/>
+11. Write a programme to retrieve the MAC address of a system using Address Resolution Protocol<br/>
+12. Write a programme to find the class of a given IP address, subnet mask and address range of that subnet<br/>
+]]></string>
+    <string name="compilerDesignLabSyllabus"><![CDATA[<b>COMPILER DESIGN LAB</b><br/>
+    <b>(Any 10 Experiments)</b><br/>
+1. Design a lexical analyzer for given language and the lexical analyzer should ignore redundant spaces, tabs and new lines. It should also ignore comments. Although the syntax specification states that identifiers can be arbitrarily long, you may restrict the length to some reasonable value. Simulate the same in C/LEX language.<br/>
+2. Write a program to identify whether a given line is a comment or not.<br/>
+3. Write a program to recognize strings under a, a*b+, abb.<br/>
+4. Write a program to test whether a given identifier is valid or not.<br/>
+5. Write a program to simulate lexical analyzer for validating operators.<br/>
+6. Implement the lexical analyzer using JLex, flex or other lexical analyzer generating Tools.<br/>
+7. Write a program for implementing the functionalities of predictive parser for the mini Language.<br/>
+8. Write a program for constructing of LL (1) parsing<br/>
+9. Write a program for constructing recursive descent parsing.<br/>
+10. Write a program to implement LALR parsing.<br/>
+11. Write a program to implement operator precedence parsing<br/>
+12. Write a program to implement Program semantic rules to calculate the expression that takes an expression having digits, + and * and computes the value.<br/>
+13. Convert the BNF rules into Yacc form and write code to generate abstract syntax tree for the mini language.<br/>
+14. Write a program to generate the code for the following three address code statements.
+A =B + C and W = X – Y<br/>
+15. Write a program to generate code for the following three address code statements
+W = (A+B)*C<br/>
+]]></string>
+    <string name="iwtSyllabus"><![CDATA[<b>Module –I (12Hours)</b><br/>
+<b>Introduction, Evolution of Internet, WEB2.0, Understanding the WWW and the Internet, Emergence of Web, Protocols:</b> TCP/IP, UDP, HTTP, Internet Addressing Scheme – Ipv4 & IPv6, Domain Name Server, Building Web Sites: Planning for designing Web pages, Model and structure for a Website, Developing Websites, Web Servers, Web Browsers.<br/>
+<b>HTML:</b> Introduction, SGML, DTD (Document Type Definition). Basic HTML using images links, Lists, Tables and Forms, Frames for designing a good interactive website. HTML5: Migration, New Elements, Semantics, Canvas, SVG, Multimedia.<br/><br/>
+<b>Module –II (12Hours)</b><br/>
+<b>CSS:</b> Syntax, Class Selector, Id Selector, External, inline and Internal Style Sheets, div & span tags. DOM HTML DOM, inner HTML, Dynamic HTML (DHTML). <b>CSS3:</b> Rounded Corners, Border Images, Gradients, Shadows, 2D and 3D Transforms, Transitions, Animations, Box Sizing<br/>
+<b>Java Script:</b> JAVA Script Programming Fundamentals, Statements, Expressions, Operators, Popup Boxes, Control Statements, Try…. Catch Statement, Throw Statement, Objects of JavaScript: Date object, array object, Boolean object, math object. Email and password validations. Writing Java Applets, Life cycle of applet, Design a login page using applets. Events and Event Handlers: General Information about Events, Defining Event Handlers, onAbort, onBlur, onChange, onClick, onDblClick, onDragDrop, onError, onMove, onReset, onSelect, onSubmit, onUnload<br/><br/>
+<b>Module –III (12 Hrs)</b><br/>
+<b>What is XML</b> – Basic Standards, Schema Standards, Linking & Presentation Standards, Standards that build on XML, Generating XML data, writing a simple XML File, Creating a Document type definition, Documents & Data, Defining Attributes & Entities in the DTD, Defining Parameter Entities & conditional Sections, Designing an XML data structure.<br/>
+<b>CGI/PERL:</b> Introduction to CGI/Perl, Testing & Debugging Perl /CGI Script, Using Scalar variables and operators in Perl/CGI. PHP: Starting to script on server side, Arrays function and forms<br/>
+<b>INTERNET SECURITY & FIREWALLS:</b> Types of Viruses, Client Server Security Threats, Data & Message Security, Encrypted Documents and Emails, Proxy Application Gateways, FIirewalls, AAA (Authentication, Authorization and Accounting).<br/><br/>
+<b>Textbooks:</b><br/>
+1. Web Warrior Guide to Web Design Technologies, Don Gosselin, Joel Sklar & others, Cengage Learning India, 2011<br/>
+2. Programming the World Wide Web, Robert W Sebesta,8th edition, Pearson, 2015<br/>
+3. Web Technologies, Uttam K Roy, Oxford,2010<br/>
+]]></string>
+    <string name="softwareTecnoSyllabus"><![CDATA[<b>Module-I (12 hours)</b><br/>
+<b>Software Process Models:</b> Software Product, Software crisis, Handling complexity through Abstraction and Decomposition, Overview of software development activities, Process Models, Classical waterfall model, iterative waterfall model, prototyping mode, evolutionary model, spiral model, RAD model, V model, Agile models: Extreme Programming, and Scrum.<br/>
+<b>Software Requirements Engineering:</b> Requirement Gathering and Analysis, Functional and Non-functional requirements, Software Requirement Specification (SRS), IEEE 830 guidelines, Decision tables and Decision trees.<br/><br/>
+<b>Module-II (12 hours)</b><br/>
+<b>Structured Analysis & Design:</b> Overview of design process: High-level and detailed design, Cohesion and coupling, Modularity and layering. <b>Function–Oriented software design:</b> Structured Analysis using DFD Structured Design using Structure Chart, Basic concepts of Object Oriented Analysis & Design. User interface design, Command language, menu and iconic interfaces Coding and <b>Software Testing Techniques:</b> Coding, Code Review, documentation. <b>Testing:</b> - Unit testing, Black-box Testing, White-box testing, Cyclomatic complexity measure, coverage analysis, mutation testing, Debugging techniques, Integration testing, System testing, Regression testing.<br/><br/>
+<b>Module-III (12 hours)</b><br/>
+<b>Software Reliability and Software Maintenance:</b> Basic concepts in software reliability, reliability measures, reliability growth modeling, Quality SEI CMM, Characteristics of software maintenance, software reverse engineering, software reengineering, software reuse. <b>Software Size Metrics:</b> LOC Function Point, <b>COCOMO Model:</b> Basic COCOMO Model, Intermediate COCOMO model, Complete COCOMO model. <b>Emerging Topics:</b> Client-Server Software Engineering, Service-oriented Architecture (SOA), Software as a Service (SaaS), CORBA.<br/><br/>
+<b>Text Book:</b><br/>
+1. Fundamentals of Software Engineering, Rajib Mall, PHI, 2014.<br/><br/>
+<b>Reference Books:</b><br/>
+1. Software Engineering, A Practitioner’s Approach, Roger S. Pressman, TMG Hill.<br/>
+2. Software Engineering, I. Sommerville, 9th Ed. , Pearson Education.<br/>
+]]></string>
+    <string name="dataMiningSyllabus"><![CDATA[<b>Module-I (12 Hours)</b><br/>
+<b>Introduction to Data warehousing:</b> Definition and Characteristic, Need for data warehousing, Evolution of Decision support System, Building blocks of data warehouse, data warehouses and data marts, metadata in the data warehouse, Data warehousing Architecture, Data warehousing implementation, Business and data warehouse<br/>
+<b>Data Warehouse Modelling and Design:</b> Multidimensional data model, Data cube, Schemas for multidimensional data models (Star, Snowflake, Fact Constellation), OLAP, OLAP Operations, OLAP Models(ROLAP, MOLAP, HOLAP), OLAP vs OLTP, Benefits of Data <br/><br/>
+<b>Module-II (12 Hours)</b><br/>
+<b>Introduction to Data Mining:</b> KDD Process, Data mining Functionalities, Classification of data mining systems, data mining task primitives, Integration of data mining system with data warehouse, Data Preprocessing (data summarization, data cleaning, data integration and transformation, data reduction, data discretization)<br/>
+<b>Association Rule Mining:</b> Mining frequent patterns, associations, correlations (market basket analysis), Frequent Itemset Mining, (Apriori algorithm, FP-Growth), Correlation Analysis (Chi-square, Lift), Kinds of association rules<br/><br/>
+<b>Module-III (12 Hours)</b><br/>
+<b>Classification:</b> Classification vs Prediction, issues, Decision tree induction, Attribute Selection Measures, Tree Pruning, Rule based classification, classification by Back Propagation, Bayseian Classification, Support Vector Machines<br/>
+<b>Cluster Analysis:</b> Data in cluster analysis, Categorization of clustering methods, partitioning methods (k-means, k-medoids), hierarchical methods(AGNES, DIANA, BIRCH),density based methods (DBSCAN, OPTICS), Outlier Analysis<br/><br/>
+<b>Text Books:</b><br/>
+1. Data Mining: Concepts and techniques: Han, Camber and Pei, Elsevier (3rd Edition).<br/>
+2. Data Mining & Data Warehousing Using OLAP: Alex & Stephen, McGraw Hill<br/><br/>
+<b>Reference books:</b><br/>
+1. Data Mining Techniques and Applications by Hongbo Du, Cengage<br/>
+2. Data Mining: Arun Pujari, University Press<br/>
+3. Data Mining –a Tutorial based primer by R.J.Roiger, M.W.Geatz, Pearson Education.<br/>
+4. Data Warehousing: ReemaThareja, Oxford University Press<br/>
+5. Data warehousing Fundamentals: PaulrajPonniah, Willey India.<br/>
+]]></string>
+    <string name="dataAnalysisSyllabus"><![CDATA[<b>MODULE I: 12 Hrs</b><br/>
+<b>Introduction:</b>Data Analytics, Data Mining and Knowledge Discovery, Data and Relations:</b> The Iris Data Set, Data Scales, Set and Matrix Representations, Relations, Dissimilarity Measures, Similarity Measures, Sequence Relations, Sampling and Quantization, <b>Data Preprocessing:</b> Error Types, Error Handling, Data Transformation.<br/><br/>
+<b>MODULE II: 12 Hrs</b><br/>
+<b>Data Visualization:</b> Principal Component Analysis, Multidimensional Scaling, Sammon Mapping, <b>Correlation:</b> Linear Correlation, Correlation and Causality, Chi-Square Test for Independence, <b>Regression:</b> Linear Regression, Linear Regression with Nonlinear Substitution, Robust Regression, Neural Networks, Radial Basis Function Networks, Cross-Validation.<br/><br/>
+<b>MODULE III: 12 Hrs</b><br/>
+<b>Forecasting:</b> Recurrent Models, Autoregressive Models, <b>Classification:</b> Classification Criteria, Naive Bayes Classifier, Linear Discriminant Analysis, Support Vector Machine, Nearest Neighbor Classifier, Learning Vector Quantization, Decision Trees, <b>Clustering:</b> Cluster Partitions, Sequential Clustering, Prototype-Based Clustering, Fuzzy Clustering, Relational Clustering, Cluster Tendency Assessment, Cluster Validity, Some Optimization Methods: Optimization with Derivatives, Gradient Descent, Lagrange Optimization.<br/><br/>
+<b>TEXT BOOKS:</b><br/>
+Thomas A. Runkler, Data Analytics Models and Algorithms for Intelligent Data Analysis, Springer, 2012.<br/>
+]]></string>
+    <string name="computerVisionSyllabus"><![CDATA[<b>Module-I (12 hours)</b><br/>
+<b>Digital Image Fundamentals:</b> Basic Concepts, Imaging geometry, translation, scaling, rotation, Image formation, Geometric Camera Models, Image digitization, Image types, Color Images, color models, Digital Image Properties: metrics and topological properties of digital images, histograms, visual properties.<br/>
+<b>Image pre-processing:</b> Pixel brightness transformation, Local pre-processing.<br/><br/>
+<b>Module-II (12 hours)</b><br/>
+<b>Image segmentation:</b> Fundamentals, point, line detection, basic edge detection techniques, Hough transform, Thresholding, basic global threholding, optimal thresholding using Otsu’s method, multi-spectral thresholding, Region based segmentation, region growing, region splitting and merging.<br/>
+<b>Shape representation and descriptors: </b>Region identification, Contour or boundary-based representation and descriptors, chain codes, boundary length, curvature, bending energy, signature, Fourier descriptor.<br/><br/>
+<b>Module-III (12 hours)</b><br/>
+Region-based representation and descriptors, area, Euler’s number, eccentricity, elongatedness, rectangularity, direction, compactness, moments, covex hull Object and Pattern <b>Recognition:</b> Pattern and pattern classes, Matching, minimum distance or nearest neighbor classifier, matching by correlation, Optimum statistical classifier, Neural network classifier.<br/><br/>
+<b>TEXT BOOK</b><br/>
+1. Milan Sonka, Vaclav Hlavac and Roger Boyele, Image processing, analysis, and machine vision. 3e, Cengage Learning, 2014.<br/><br/>
+<b>REFERENCE BOOKS:</b><br/>
+1. Rafael C. Gonzalez and Richard E. Woods. "Digital image processing”Pearson Education<br/>
+2. Computer Vision A modern approach, David A. Forsyth and Jean Ponce, Pearson Education<br/>
+]]></string>
+    <string name="cloudComputingSyllabus"><![CDATA[<b>Module-1: (12 hrs)</b><br/>
+<b>Introduction:</b> Cloud-definition, benefits, usage scenarios, Functioning of Cloud Computing – Cloud Architecture – Types of Clouds – Business models around Clouds – Major Players in Cloud Computing – issues in Clouds , Risks Involved in Cloud Computing.<br/>
+<b>Cloud Services:</b> Types of Cloud services: Software as a service – Platform as a Service – Infrastructure as a Service – database as a Service – Monitoring as a Service – Communication as services, Service providers – Google, Amazon, Microsoft Azure, IBM, Salesforce Cloud Service Administration- Service Level Agreements and Monitoring-Support Services- Accounting Services, Resource Management- IT Security- Performance Management- Provisioning- Service Management, Untangling Software Dependencies.<br/><br/>
+<b>Module-2: (12 hrs)</b><br/>
+<b>Collaborating Using Cloud Services:</b> Email Communication over the Cloud – CRM Management – Project Management – Event Management – Task Management – Calendar – Schedules – Word Processing – Presentation – Spreadsheet – Databases – Desktop – Social Networks and Groupware, Work Loan Management in Cloud.<br/>
+<b>Virtualization For Cloud:</b> Need for Virtualization – Pros and cons of Virtualization – Types of Virtualization – System Vm, Process VM, Virtual Machine monitor – Virtual machine properties – Interpretation and binary translation, HLL VM – Hypervisors – Xen, KVM, VMWare, Virtual Box, Hyper-V.<br/><br/>
+<b>Module-3: (12 hrs)</b><br/>
+Data & Cloud Storage:</b> Enterprise Data Storage(SAN,NAS),Cloud File System,Cloud Data stores & Data management for cloud storage.
+Security, Standards and Applications: Security in Cloud: Cloud security challenges – Software as a Service Security, Common Standards: The Open Cloud Consortium – The Distributed Management Task Force – Standards for application Developer – Standards for Messaging – Standards for Security, End user access to cloud computing, Mobile Internet devices and the cloud.<br/>
+<b>Cloud Computing Platforms & tools:</b> Eucalyptus – Nimbus – Open Nebula, CloudSim,Apache,Hadoop,Map Reduce<br/><br/>
+<b>Text Books:</b><br/>
+1. John Rittinghouse and James Ransome, “Cloud Computing, Implementation, Management and Strategy”, CRC Press, 2009.<br/>
+2. Cloud Computing Principles & Paradigms By Buyya, Brobery & Goscinni(Wiley).<br/>
+3. Cloud Computing By Srinivasan & Suresh(Pearson).<br/><br/>
+<b>References:</b><br/>
+1. Michael Miller, “Cloud Computing: Web-Based Applications That Change the Way You Work and Collaborate”, Que Publishing, August 2008.<br/>
+2. James E Smith and Ravi Nair, “Virtual Machines”, Morgan Kaufmann, 2006.<br/>
+3. David E. Y. Sarna, “Implementing and Developing Cloud Application”, CRC press 2011.<br/>
+]]></string>
+    <string name="computerGraphicsSyllabus"><![CDATA[<b>Module–I (10 hours)</b><br/>
+<b>Overview of Graphics System:</b> Video Display Units, Raster-Scan and Random Scan Systems, Graphics Input and Output Devices. Output Primitives: Line drawing Algorithms: DDA and Bresenham’s Line Algorithm, Circle drawing Algorithms: Midpoint Circle Algorithm and Bresenham’s Circle drawing Algorithm. Two Dimensional Geometric Transformation: Basic Transformation (Translation, Rotation, Scaling) Matrix Representation, Composite Transformations, Reflection, Shear, Transformation between coordinate systems.<br/><br/>
+<b>Module–II (10 hours)</b><br/>
+<b>Two Dimensional Viewing:</b> Window-to- View Port Coordinate Transformation. Line Clipping (Cohen-Sutherland Algorithm) and Polygon Clipping (Sutherland-Hodgeman Algorithm) Aliasing and Antialiasing, Half Toning, Thresholding, Dithering. Polygon Filling: Seed Fill Algorithm, Scan line Algorithm. Two Dimensional Object Representations: Spline Representation, Bezier Curves, B-Spline Curves. Fractal Geometry: Fractal Classification and Fractal Dimension.<br/><br/>
+<b>Module–III (8 hours)</b><br/>
+<b>Three Dimensional Geometric and Modeling Transformations:</b> Translation, Rotation, Scaling, Reflections, shear, Composite Transformation. Projections: Parallel Projection, Perspective Projection. Visible Surface Detection Methods: Back-Face Detection, Depth Buffer, A- Buffer, Scan- Line Algorithm, Painters Algorithm.<br/><br/>
+<b>Module–IV (8 hours)</b><br/>
+<b>Illumination Models:</b> Basic Models, Displaying Light Intensities. Surface Rendering Methods: Polygon Rendering Methods: Gouraud Shading, Phong Shading. Computer Animation: Types of Animation, Key frame Vs. Procedural Animation, Methods of Controlling Animation, Morphing. Introduction to Virtual Reality and Augmented Reality.<br/><br/>
+<b>Textbook:</b><br/>
+1. Computer Graphics, D. Hearn and M.P. Baker (C Version), Pearson Education, Seventh Impression 2008<br/><br/>
+<b>Reference Books:</b><br/>
+1. Computer Graphics Principle and Practice, J.D. Foley, A. Dam, S.K. Feiner, Addison Wesley, 2nd Edition.<br/>
+2. Procedural Elements of Computer Graphics, David Rogers, TMH.<br/>
+3. Computer Graphics: Algorithms and Implementations, D.P Mukherjee, D. Jana, PHI.<br/>
+4. Computer Graphics, Z. Xiang, R. A. Plastock, Schaum’s Outlines , McGrow Hill.<br/>
+]]></string>
+    <string name="softComputingSyllabus"><![CDATA[<b>Module I: (12 hrs)</b><br/>
+ <b>Fundamentals of Neural Network:-</b> Introduction to Soft Computing, Neural Network, Neural Network Application, Neural Network <br/><b>Architecture Simple Neural Network:-</b> Perceptron, McCulloh Pitt Model, Adaline, Madaline, Hebb’s Net, Back propagation Neural Network, Auto associative and Hetero associative network, Kohen self-organizing map, Artificial Resonance Theory<br/><br/>
+
+ <b>Module II: (8 hrs)</b>
+ <b>Fuzzy Logic:-</b> Crisp and Fuzzy sets, membership functions, Basic operations on fuzzy sets, Properties of fuzzy sets, Fuzzy relations, Propositional and predicate logic, fuzzy mapping rules and implications, Fuzzy models, Applications.<br/><br/>
+ <b>Module III: (10 hrs)</b>
+ <b>Nature Inspired Algorithms:</b> Introduction, Genetic algorithms, Differential evolution, Particle swarm optimization, Ant colony optimization, Bacteria Foraging Optimization, Cuckoo search.<br/><br/>
+ <b>Module IV: (6 hrs)</b><br/>
+<b>Hybrid Systems:</b> Integration of neural networks, fuzzy logic and genetic algorithms.<br/><br/>
+<b>Text/ Reference books:</b><br/>
+1. S. Rajasekaran and G.A. Vijaylakshmi Pai, Neural Networks Fuzzy Logic, and Genetic Algorithms, Prentice Hall of India, 2003.<br/>
+2. J.S.R. Jang, C.T. Sun and E. Mizutani, Neuro-Fuzzy and Soft Computing, Prentice Hall of India, 2004.<br/><br/>
+<b>Reference books:</b><br/>
+1. N.P. Padhy and S.P. Simon, Soft Computing: With Matlab Programming, Oxford University Press, 2015.<br/>
+2. Xin-She Yang: Nature Inspired Optimization Algorithms ,Elsevier,2014<br/>
+3. D. E. Goldberg, Genetic Algorithms: Search, Optimization and Machine Learning, Addison Wesley, 1989.<br/>
+4. Lauren Fausett: Fundamentals of Neural network-Architecture, Algorithm, Application , Pearson,2004<br/>
+]]></string>
+    <string name="itwLabSyllabus"><![CDATA[<b>INTERNET AND WEB TECHNOLOGIES LAB</b><br/>
+<b>Experiment 1:</b> Basic HTML using images links, Lists.<br/>
+<b>Experiment 2:</b> Basic HTML using Tables and frames.<br/>
+<b>Experiment 3:</b> Design the web page using form elements.<br/>
+<b>Experiment 4:</b> Design a web page by using HTML 5<br/>
+<b>Experiment 5:</b> Use different types of styles in a page. Use inline, internal and external style sheets.<br/>
+<b>Experiment 6:</b> Design a web page by using CSS3<br/>
+<b>Experiment 7:</b> Embedding the JavaScript in to Web pages. Usage of concepts and functions, array and objects.<br/>
+<b>Experiment 8:</b> Form validation using JavaScript<br/>
+<b>Experiment 9:</b> DTD and XML implementations in web designing concepts<br/>
+<b>Experiment 10:</b> Create the small web site using web2.0 concepts.<br/>
+
+]]></string>
+    <string name="softwareEngineeringLabSyllabus"><![CDATA[<b>SOFTWARE ENGINEERING LAB</b>
+<b>Experiment 1:</b> Develop requirements specification for a given problem. The requirements<br/>
+Specification should include both functional and non-functional requirements<br/>
+<b>Experiment 2:</b> Develop DFD Model (Level 0, Level 1 DFD) of the sample problem<br/>
+<b>Experiment 3:</b> Develop DFD model (Level 2) and data dictionary of the sample problem<br/>
+<b>Experiment 4:</b> Develop UML Use case model for a problem (Use of a CASE tool any of Rational rose, Argo UML, or Visual Paradigm etc. is required)<br/>
+<b>Experiment 5:</b> Develop Class diagrams<br/>
+<b>Experiment 6:</b> Develop Sequence Diagrams<br/>
+<b>Experiment 7:</b> Develop Collaboration Diagrams<br/>
+<b>Experiment 8:</b> Develop Activity Diagram Diagrams<br/>
+<b>Experiment 9:</b> Develop State Chart Diagrams<br/>
+<b>Experiment 10:</b> Develop code for the developed class model using Java & testing<br/>
+]]></string>
+    <string name="simulationLabSyllabus"><![CDATA[
+]]></string>
+    <string name="mobileComputingSyllabus"><![CDATA[<b>Module - I (12 hours)</b><br/>
+<b>Introduction:</b> Three Tier Architecture Mobile Computing Architecture, Evolution of Wireless Technology<br/>
+<b>Cellular System:</b> Cell, Cluster, Cell Splitting, Frequency Reuse, Channel Assignment Strategies, Components of Cellular System, Operation of Cellular System<br/>
+<b>Personal Communications Services (PCS):</b> PCS Architecture, mobility management.<br/>
+<b>Global System for Mobile Communication (GSM):</b> Overview, Architecture, Network signaling, Channels, Mobility Management.<br/>
+<b>General Packet Radio Services (GPRS):</b> Architecture, GPRS Interfaces, Network Protocols<br/><br/>
+<b>Module - II (12 hours)</b><br/>
+<b>Wireless LAN (WLAN):</b> Application, Requirement, IEEE 802.11(Ad-hoc Mode, Infrastructure Mode, Protocol Architecture), Bluetooth (Piconet, Scatternet, Protocol Stack, Bluetooth Profile)<br/>
+<b>Wireless Application Protocol (WAP):</b> WAP Gateway and Protocols, wireless mark up Languages (WML),<br/>
+<b>Wireless Local Loop (WLL):</b> WLL Configuration, Architecture, WLL Technologies.<br/>
+<b>IMT 2000:</b> Vision, IMT-2000 Family, W-CDMA and CDMA 2000<br/><br/>
+<b>Module - III (12 hours)</b><br/>
+<b>Satellite System:</b> Introduction, Types of Satellite System (HEO, MEO, LEO), Satellite System Architecture, Case Studies: IRIDIUM, GLOBALSTAR and ICO<br/>
+<b>Virtual Private Network (VPN):</b> Features, Goals, Working, Remote Access VPN, Site to Site VPN, VPN Protocols, Requirements<br/>
+<b>Mobile IP & Cellular IP:</b> Goals & Working, Mobile OS: Windows CE, Windows Mobile OS, Symbian OS<br/><br/>
+<b>Text Books:</b><br/>
+1. Mobile Communication: J. Schiller, 2ND Edition, Pearson Education<br/>
+2. Mobile Computing: AsokeTalukdar, 2ndEdition, TMH.<br/><br/>
+<b>Reference Books:</b><br/>
+1. Fundamentals of Mobile Computing, Prashanta Kumar Patnaik and Rajib Mall, PHI, 2nd Edition, 2015<br/>
+2. Mobile Computing: P.K. Patra, S.K. Dash, 2nd Edition, Scitech Publications.<br/>
+3. Mobile Computing, Raj Kamal, 2nd Edition, Oxford University Press<br/>
+]]></string>
+    <string name="realTimmeSystemsSyllabus"><![CDATA[<b>MODULE-1 ( 12Hrs )</b><br/>
+<b>Introduction:</b> What is real time, Applications of Real-Time systems, A basic model of Real-time system, Characteristics of Real-time system, Safety and Reliability, Types of Real-time tasks, timing constraints, Modeling timing constraints Real-Time Task Scheduling: Some important concepts, Types of Real-time tasks and their characteristics, Task scheduling, Clock-Driven scheduling, Hybrid schedulers, Event Driven scheduling, Earliest Deadline First (EDF) scheduling, Rate monotonic algorithm (RMA). Issues Associated with RMA.<br/><br/>
+<b>MODULE-2 (12Hrs)</b><br/>
+<b>Handling Resource Sharing and dependencies among Real-time Tasks:</b> Resource sharing among real-time tasks. Priority inversion. Priority Inheritance Protocol (PIP), Highest Locker Protocol (HLP). Priority Ceiling Protocol (PCP). Different types of priority inversions under PCP. Important features of PCP. Some issues in using a resource sharing protocol. Handling task dependencies. Scheduling Real-time tasks in multiprocessor and distributed systems: Multiprocessor task allocation, Dynamic allocation of tasks. Fault tolerant scheduling of tasks. Clock in distributed Real-time systems, Centralized clock synchronization<br/><br/>
+<b>MODULE-3 (12Hrs)</b><br/>
+<b>Commercial Real-time operating systems:</b> Time services, Features of a Real-time operating system, Unix as a Real-time operating system, Unix-based Real-time operating systems, Windows as a Real-time operating system, POSIX-RT, A survey of contemporary Real-time operating systems. Benchmarking real-time systems. Real-time Databases: Example applications of Real-time databases. Review of basic database concepts, Real-time databases, Characteristics of temporal data. Concurrency control in real-time databases. Commercial real-time databases. <b>Real time Communication:</b> Basic concepts, Examples of applications, Real-time communication in a LAN and Real-time communication over packet switched networks.<br/><br/>
+<b>Text Book:</b><br/>
+Real-time Systems Theory and Practice by Rajib Mall, Pearson Publication, 2008.<br/>
+<b>Reference BOOK:</b><br/>
+1. Jane W. S. Liu, Real-Time Systems, Pearson Education, 2000.<br/>
+2. C.M. Krishna and K.G. Shin, Real-Time Systems, TMH.<br/>
+]]></string>
+    <string name="wirelessSensorNetworkSyllabus"><![CDATA[<b>Module-I: (12hrs)</b><br/>
+<b>Introduction:</b> Introduction to Wireless Sensor Networks, Node architecture, Advantages of Sensor Networks, Application of Sensor Networks, Challenges and Constraints.<br/>
+Node Architecture:</b> Sensing Subsytem, Processor Subsystem, Communication Interfaces<br/>
+<b>Operating System:</b> Functional Aspects, Non-functional Aspects, Prototypes(Tiny OS, SOS, Contiki, Lite OS)<br/><br/>
+<b>Module-II: (12 hrs)</b><br/>
+<b>Physical Layer:</b> Basic components, Source and Channel Encoding, Modulation, Signal Propagation.<br/>
+<b>MAC Layer:</b> Wireless MAC Protocols (CSMA, MACA, MACAW), Characteristics of MAC protocols in Sensor Networks, Contention-Free MAC protocols( TRAMA, YMAC, LEACH), Contention-Based MAC protocols(PAMAS, SMAC, TMAC), Hybrid MAC protocols.<br/>
+Network Layer:</b> Classification of Routing Protocol, Routing metrics, Flooding and gossiping, Data-Centric routing (SPIN, Directed Diffusion, Gradient), Proactive routing (DSDV, OLSR), On-Demand routing (AODV, DSR), Hierarchical routing, Location-Based routing (UNICAST, MULTICAST, GAF), QoS-Based routing protocols<br/><br/>
+<b>Module-III: (12hrs)</b><br/>
+<b>Localization:</b> Ranging Techniques, range based localization, Range Free Localization, event Based Localization<br/>
+<b>Time Synchronization:</b> Reasons and challenges for time synchronization, Basics of time synchronization, Time synchronization protocols – Receiver Broadcast Synchronization, Timing-Sync Protocol for Sensor Networks and Flooding Time Synchronization Protocol.<br/><br/>
+<b>Text Books:</b><br/>
+1. Fundamentals of Wireless Sensor Network: Theory and Practice: Waltenegus Dargie and Christian Poellabauer, Wiley Publication, 2010.<br/>
+2. Networking Wireless Sensors: BhaskarKrismachari, Cambridge University Press<br/><br/>
+<b>References Books:</b><br/>
+1. Wireless Sensor Networks: An Information Processing Approach- by Feng Zhao, Leonidas Guibas , Morgan Kaufmann Series in Networking 2004<br/>
+2. Wireless Sensor Networks: Edited by C.S Raghavendra, Krishna M, Sivalingam, TaiebZnati, Springer<br/>
+]]></string>
+    <string name="faultTolerantSystemSyllabus"><![CDATA[<b>Module-I: 12 Hrs</b><br/>
+<b>BASIC TERMS:</b>
+Definition of fault tolerance, Redundancy, Applications of fault-tolerance, Fundamentals of dependability.<br/>
+<b>Attributes:</b> Reliability, availability, safety, Impairments: faults, errors and failures, Means: fault prevention, removal and forecasting<br/>
+DEPENDABILITY EVALUATION:</b>
+<b>Common measures:</b> failures rate, mean time to failure, mean time to repair, etc. Reliability block diagrams, Markov processes<br/><br/>
+<b>Module-II: 12 Hrs</b><br/>
+<b>REDUNDANCY:</b>
+Hardware redundancy, Redundancy schemes, Evaluation and comparison, Applications, Information redundancy, Codes: linear, Hamming, cyclic, unordered, arithmetic, etc., Encoding and decoding techniques, Applications, Time redundancy<br/><br/>
+<b>Module-III: 12 Hrs</b><br/>
+<b>PROGRAMMING:</b>
+Software fault tolerance, Specific features, Software fault tolerance techniques: N-version programming, recovery blocks, self-checking software, etc.<br/><br/>
+<b>Text Books:</b><br/>
+1. Anderson, T., and P.A. Lee, Fault-Tolerant Principles and Practices, Prentice-Hall<br/>
+2. Hwang, K., and F.A. Briggs, Computer Architecture and Parallel Processing, McGraw-Hill.<br/>
+3. Jalote, P.Fault-Tolerance in Distributed Systems, ISBN 0-13-301367-7, Prentice-Hall,<br/>
+<b>Reference Books</b><br/>
+1. Johnson, B.W., Design and Analysis of Fault-Tolerant Systems, Addison Wesely<br/>
+2. Leveson, Nancy G., Safeware, system safety and computers, Addison Wesely.<br/>
+3. Pradhan, D.K., Fault-Tolerant Computing — Theory and Techniques, (2 Volumes), Prentice-Hall.<br/>
+4. Pradhan, Dhiraj K., Fault-Tolerant Computer System Design, ISBN 0-13-057887-8, Prentice-Hall<br/>
+]]></string>
+    <string name="softwareProjectManagementSyllabus"><![CDATA[<b>Module I: Project Evaluation and Planning (12Hrs)</b><br/>
+<b>Introduction to Software Project Management:</b> Software Projects vs Other Types of Projecr, Activities in Software Project Management, Evaluation of Individual Projects(Cost–Benefit Analysis, Cash Flow Forecasting), Cost Benefit Evaluation Techniques, Risk Evaluation , <b>Software Effort Estimation:</b> COCOMO 2, Cost Estimation, Staffing pattern, Effect of schedule compression, Capers Jones estimating rules of thumb, <b>Activity Planning:</b> Objectives of Activity Planning, Sequencing and Scheduling Activities, Network Planning Models, Critical path analysis,.<br/><br/>
+<b>Module 2: Monitoring and Control (12Hrs)</b><br/>
+Collecting Data, project termination review, Visualizing Progress, Cost Monitoring, Earned Value analysis, Change Control, Software Configuration Management (SCM), <b>Managing Contracts:</b> Types Of Contracts, Stages In Contract Placement, Typical Terms of A Contract, Contract Management and Acceptance.<br/><br/>
+<b>Module 3: Quality Management and People Management (12Hrs)</b><br/>
+Introduction, Understanding Behavior, Organizational Behaviour, Selecting The Right Person For The Job, Motivation, The Oldman – Hackman Job Characteristics Model, Stress, Health And Safety, <b>Working in Teams:</b> Decision Making, Organization and team structures, Leadership, ISO and CMMI models, Testing and Software reliability.<br/><br/>
+<b>Text Book:</b><br/>
+1. Bob Hughes, Mike Cotterell, “Software Project Management”, Fifth Edition, Tata McGraw Hill, 2011.<br/><br/>
+<b>Reference Books:</b><br/>
+1. Royce, “Software Project Management”, Pearson Education, 1999.<br/>
+2. Robert K. Wysocki, Effective Software Project Management, Wiley, 2009.<br/>
+]]></string>
+    <string name="informationRetrievalSyllabus"><![CDATA[<b>Module-I: 12  Hours</b><br/>
+Basic Concepts of IR, Data Retrieval & Information Retrieval, IR system block diagram.<b>IR Models:</b> Boolean Model, Vector Model
+<b>Storage:</b> Inverted file, Suffix trees &suffix arrays, Signature Files, Scatter storage or hash addressing, Clustered files.
+<b>Searching strategies:</b> Boolean Search, Serial search, cluster based retrieval, Query languages, Types of queries, Patterns matching, structural queries.<br/><br/>
+<b>Module-II: 12 Hours</b><br/>
+Index Construction, Dynamic indexing index compression, vector space retrieval, similarity search<br/>
+<b>Probabilistic IR:</b> Probabilistic information retrieval, Language model of information retrieval, Bottom-up and top-down parsing paradigms, clustering and visualization via embedding<br/><br/>
+<b>Module-III: 12 Hours</b><br/>
+<b>Learning in IR:</b> Supervised Learning, Evaluating text classifiers, Nearest neighbors learners, Bayesian Learners, Hypertext Classification, Semi supervised learning<br/>
+<b>Recommender Systems:</b> Collaborative Filtering and Content Based Recommendation of Documents and Products, Information Extraction and <b>Integration:</b> Extracting Data from Text. Semantic Web, Collecting and Integrating Specialized Information on the web.<br/><br/>
+<b>Text Books:</b><br/>
+1. Yates & Neto, "Modern Information Retrieval", Pearson Education,ISBN81-297-0274-6.<br/>
+2. Heiner Stuckenschmidt, Frank van Harmelen, “Information Sharing on the Semantic Web”, Springer International Edition, ISBN3-540-20594-2.<br/>
+3. Christopher D. Manning, Prabhakar Raghavan and Hinrich Schutze “Introduction to Information Retrieval ”, Cambridge University Press, ISBN 978-0-521-86571-5<br/><br/>
+<b>Reference Books</b><br/>
+1. Markleven, “Introduction to search engines and web navigation”, John Wiley and sons<br/>
+2. V. S. Subrahamanian, Satish K. Tripathi “Multimedia information System”, Kulwer Academic Publisher.<br/>
+3. Chabane Djeraba, ”Multimedia mining A high way to intelligent multimedia documents”,
+Kulwer Academic<br/>
+4. Stefan Buttcher, Charles L.A. Clarke, Gordon V. Cormack, Information Retrieval Implementing and Evaluating Search Engines, The MIT Press, Cambridge, Massachusetts London, England,2010.<br/>
+]]></string>
+    <string name="entrepreneurshipDevSyllabus"><![CDATA[<b>Module 1: (06 Hours)</b><br/>
+<b>Entrepreneurship: </b>Concept of Entrepreneurship and Intrapreneurship, Types of Entrepreneur, Nature and Importance, Entrepreneurial Motivation and Achievement, Entrepreneurial Personality & Traits and Entrepreneurial Skills.<br/><br/>
+<b>Module 2: (08 Hours)</b><br/>
+Entrepreneurial Environment, Identification of Opportunities, Converting Business, Opportunities into reality. Start-ups and business incubation, Skill Development. Setting up a Small Enterprise. Issues relating to location, Environmental Problems and Industrial Policies and Regulations.<br/><br/>
+<b>Module 3: (08 Hours)</b><br/>
+<b>Basics of Accounting, Terms:</b> Assets, Liabilities, Equity, Revenue, Expense, Working capital, Marketing Mix and STP.<br/>
+<b>HRM:</b> Concepts and Function, Labour Laws- Factories Act, Organizational sup- port services - Central and State Government, Incentives and Subsidies.<br/><br/>
+<b>Module 4: (08 Hours)</b><br/>
+Sickness of Small-Scale Industries, Causes and symptoms of sickness, cures of sickness, Role of Banks and Government in reviving sick industries.<br/><br/>
+<b>Text Books:</b><br/>
+1. Entrepreneurship Development and Management, Vasant Desai, HPH.<br/>
+2. Entrepreneurship Management, Bholanath Dutta, Excel Books.<br/>
+3. Entrepreneurial Development, Sangeeta Sharma, PHI.<br/>
+4. Entrepreneurship, Rajeev Roy, Oxford University Press.<br/>
+]]></string>
+    <string name="machineLearningSyllabus"><![CDATA[<b>Module 1: (9 hrs)</b><br/>
+<b>Introduction:</b> well-posed learning problems, designing a learning system, perspectives and issues in machine learning, concept learning and the general-to-specific ordering: Introduction, A concept learning task, concept learning as search, version spaces and the CANDIDATE-ELIMINATION, <b>Inductive Bias Decision tree learning:</b> Introduction, decision tree representation, appropriate problems for decision tree learning, the basic decision tree algorithm, hypothesis space search in decision tree learning, inductive bias in decision tree learning, issues in decision tree learning.<br/><br/>
+<b>Module 2: (11 hrs)</b><br/>
+<b>Artificial Neural Networks:</b> Introduction, biological motivation, neural network representation, appropriate problem for neural network learning, Perception, multilayer networks and the back propagation algorithm,
+Linear Regression, Support vector machine, kernel function and kernelSVM.<br/><br/>
+<b>Module 3: (8 hrs)</b><br/>
+<b>Bayesian learning:</b> Introduction, Bayes theorem, Bayes theorem and concept learning, maximum likelihood and least-squared error hypotheses, minimum description length principle, Bayes optimal classifier, Gibbs algorithm, Naive Bayes classifier, example to illustrate Naïve Bayes classifier<br/>
+<b>Instance-Based Learning:</b> Introduction, K-Nearest Neighbor Learning, Radial Basis Functions <br/><br/>
+<b>Module 4: (8 hrs)</b><br/>
+<b>Clustering:</b> k-means, adaptive hierarchical clustering, Gaussian mixture model, computational learning theory, PAC learning model, sample complexity, VC dimension, ensemble learning.<br/>
+<b>Learning Set of Rules:</b> Introduction, sequential covering algorithms, learning rule sets, learning First order Rules, learning sets of first order rules, inverting resolution<br/><br/>
+<b>TEXT BOOK</b><br/>
+1. Machine Learning. Tom Mitchell. First Edition, McGraw- Hill, 1997.<br/><br/>
+<b>REFERENCE BOOKS</b><br/>
+1. Introduction to Machine Learning Edition 2, by EthemAlpaydin<br/>
+2. Kevin P. Murphy, “Machine Learning: A Probabilistic Perspective”, MIT Press,2012.<br/>
+]]></string>
+    <string name="embeddedSystemSyllabus"><![CDATA[<b>Module-I (12hrs)</b><br/>
+<b>Introduction:</b> Embedded System, Application and characteristics of embedded systems, Overview of Processors and hardware units in embedded system, embedded software in a system, Examples of Embedded system. Design metrices of Embedded system.<br/>
+<b>ARM:</b> ARM Microcontroller, ARM pipeline, Instruction Set Architecture ISA: Registers, Data Processing Instructions, Data Transfer Instructions, Multiplications instructions, Software interrupt, Conditional execution, branch instruction, Swap instruction, THUMB instructions.<br/><br/>
+<b>Module-II (12hrs)</b><br/>
+<b>Device and Device drivers:</b> I/O devices, Timer and Counting devices, Serial peripheral interfaces,, IIC, RS232C,RS422,RS485, Universal serial bus, USB Interface, USB Connector, IrDA, CAN, Bluetooth, ISA, Parallel Peripheral Interfaces, PCI, PCI-X<br/>
+<b>FPGA:</b> Field Programmable Devices, Programmability of FPGA, FPGA Logic Block, FPGA Design Flow<br/><br/>
+<b>Module–III (12 hrs)</b><br/>
+Modelling Techniques:</b> Software and programming concept: Processor selection for An embedded system, State chart, SDL, Petri-Nets, Unified Modeling Language (UML).Hardware software co-design. Hardware and software partitioning: K-L partitioning, Partitioning using genetic algorithm .Low power embedded system design: Dynamic power dissipation, Static power dissipation, Power reduction techniques.<br/><br/>
+<b>Text Books:</b><br/>
+1. “Embedded system architecture, programming and design” By Raj Kamal, TMH.<br/>
+2. “Embedded System Design ” by Santanu Chattopadhay, PHI<br/><br/>
+<b>Reference Books:</b><br/>
+1. “Hardware software co-design of Embedded systems” By Ralf Niemann, KulwerAcademic.<br/>
+2. “Embedded real time system programming” By Sriram V Iyer, Pankaj Gupta,TMH<br/>
+]]></string>
+    <string name="intrusionDetectionSyllabus"><![CDATA[<b>Module-I</b><br/>
+History of Intrusion detection, Audit, Concept and definition , Internal and external threats to data, attacks, Need and types of IDS, Information sources Host based information sources, Network based information sources.<br/><br/>
+<b>Module-II</b><br/>
+Intrusion Prevention Systems, Network IDs protocol based IDs, Hybrid IDs, Analysis schemes, thinking about intrusion. A model for intrusion analysis, techniques Responses requirement of responses, types of responses mapping responses to policy Vulnerability analysis, credential analysis non credential analysis<br/><br/>
+<b>Module-III</b><br/>
+Introduction to Snort, Snort Installation Scenarios, Installing Snort, Running Snort on Multiple Network Interfaces, Snort Command Line Options. Step-By-Step Procedure to Compile and Install Snort Location of Snort Files, Snort Modes Snort Alert Modes<br/><br/>
+<b>Module-IV</b><br/>
+Working with Snort Rules, Rule Headers, Rule Options, The SnortConfiguration File etc. Plug-in, Preprocessors and Output Modules, Using Snort with MySQL , Agent development for intrusion detection, Architecture models of IDs and IPs.<br/><br/>
+<b>Text Books:</b><br/>
+Rafeeq Rehman: “Intrusion Detection with SNORT, Apache, MySQL, PHP and ACID,” Prentice Hall<br/><br/>
+<b>Reference Books:</b><br/>
+1. Christopher Kruegel,Fredrik Valeur, Giovanni Vigna: “Intrusion Detection and Correlation Challenges and Solutions”, 1st Edition, Springer<br/><br/>
+2. Carl Endorf, Eugene Schultz and Jim Mellander “Intrusion Detection & Prevention”, 1st Edition, Tata McGraw-Hill,<br/>
+3. Stephen Northcutt, Judy Novak: “Network Intrusion Detection”, 3rdEdition, New Riders Publishing,<br/>
+4. T. Fahringer, R. Prodan, “A Text book on Grid Application Development and Computing Environment”. 6th Edition, Khanna Publishers<br/>
+]]></string>
+
+
+</resources>

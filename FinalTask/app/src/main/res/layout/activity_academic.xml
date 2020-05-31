@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#039BE5"
+    tools:context=".Academic">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/heading_background"
+                android:fontFamily="@font/sweetunicorn"
+                android:padding="5dp"
+                android:text="@string/academic_section"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sweetunicorn"
+                android:text="@string/office"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sweetunicorn"
+                android:text="@string/prof_p_k_parhi_pic_academics"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sweetunicorn"
+                android:text="@string/ph_9437176889"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sweetunicorn"
+                android:text="@string/email_picacademics_cet_edu_in"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sweetunicorn"
+                android:text="@string/office_hours_9_30_am_1_30_pm"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sweetunicorn"
+                android:text="@string/_1_30_pm_4_30_pm"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/onlinePayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/pickdatebackground"
+                android:fontFamily="@font/sweetunicorn"
+                android:padding="5dp"
+                android:text="@string/online_payment" />
+
+            <Button
+                android:id="@+id/feeStructure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/pickdatebackground"
+                android:fontFamily="@font/sweetunicorn"
+                android:padding="5dp"
+                android:text="@string/download_fee_structure"
+
+                />
+
+            <Button
+                android:id="@+id/backpaper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/pickdatebackground"
+                android:fontFamily="@font/sweetunicorn"
+                android:padding="5dp"
+                android:text="@string/backpaper_registration" />
+
+            <Button
+                android:id="@+id/retrieveBackpaper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/pickdatebackground"
+                android:fontFamily="@font/sweetunicorn"
+                android:padding="5dp"
+                android:text="@string/retrieve_backpaper_registration_details" />
+
+            <TextView
+                android:id="@+id/retrieveDetailsTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/heading_background"
+                android:fontFamily="@font/sweetunicorn"
+                android:hint="@string/registration_details_here"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:textColorHint="#b2bec3"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
