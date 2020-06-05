@@ -5,9 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
     android:background="#039BE5"
     android:orientation="vertical"
-    android:layout_gravity="center_horizontal"
     tools:context=".MainActivity">
 
 
@@ -16,14 +16,14 @@
         android:layout_width="85dp"
         android:layout_height="85dp"
         android:layout_below="@+id/textView"
-        android:background="@drawable/calculator"
         android:layout_toRightOf="@id/academic"
+        android:background="@drawable/calculator"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"/>
+        app:layout_constraintVertical_bias="0.2" />
 
     <Button
         android:id="@+id/academic"
@@ -37,8 +37,7 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-         />
+        app:layout_constraintVertical_bias="0.2" />
 
     <Button
         android:id="@+id/voicerecorder"
@@ -51,8 +50,7 @@
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-        />
+        app:layout_constraintVertical_bias="0.2" />
 
     <Button
         android:id="@+id/syllabus"
@@ -68,22 +66,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
 
-         />
-<!--    <Button-->
-<!--        android:id="@+id/maps"-->
-<!--        android:layout_width="85dp"-->
-<!--        android:layout_height="85dp"-->
-<!--        android:layout_below="@+id/academic"-->
-<!--        android:background="@drawable/map"-->
+        />
+        <Button
+            android:id="@+id/calendar"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_below="@+id/academic"
+            android:background="@drawable/calendar"
 
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.1"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.8"-->
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.8"
 
-<!--        />-->
+            />
 
     <Button
         android:id="@+id/todo"
@@ -122,13 +120,28 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/noticeBoardIcon"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/academic"
+        android:background="@drawable/noticeboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+
         />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:fontFamily="@font/sweetunicorn"
         android:gravity="center_horizontal"
         android:padding="5dp"
@@ -136,46 +149,43 @@
         android:textColor="#ffffff"
         android:textSize="35sp"
         android:textStyle="bold"
-        android:layout_centerHorizontal="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.03"
-        />
+        app:layout_constraintVertical_bias="0.03" />
 
     <Button
         android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/heading_background"
+        android:fontFamily="@font/sweetunicorn"
+        android:padding="5dp"
         android:text="@string/log_out"
         android:textColor="#000"
-        android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95"
-        android:fontFamily="@font/sweetunicorn"/>
+        app:layout_constraintVertical_bias="0.97" />
 
     <TextView
         android:id="@+id/academicSectionTag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/sweetunicorn"
-        android:text="@string/academic_nsection"
         android:gravity="center"
+        android:text="@string/academic_nsection"
         android:textSize="15dp"
         app:layout_constraintBottom_toTopOf="@+id/syllabus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/academic"
-        app:layout_constraintVertical_bias="0.0"
-        />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/calculatorTag"
@@ -260,5 +270,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/todo"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/noticeBoardTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sweetunicorn"
+        android:gravity="center"
+        android:text="@string/notice_board_tag"
+        app:layout_constraintBottom_toTopOf="@+id/library"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/todo"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/calendarTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sweetunicorn"
+        android:gravity="center"
+        android:text="@string/calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendar"
+        app:layout_constraintVertical_bias="0.895" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

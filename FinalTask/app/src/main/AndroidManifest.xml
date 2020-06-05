@@ -20,7 +20,9 @@
         android:roundIcon="@mipmap/studentcomp_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Map"></activity>
+        <activity android:name=".Calendar"></activity>
+        <activity android:name=".NoticeBoard" />
+        <activity android:name=".Map" />
         <activity android:name=".Backpaper" />
         <activity android:name=".DayDetail" />
         <activity android:name=".Academic" />

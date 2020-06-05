@@ -1365,6 +1365,10 @@ Rafeeq Rehman: “Intrusion Detection with SNORT, Apache, MySQL, PHP and ACID,�
 3. Stephen Northcutt, Judy Novak: “Network Intrusion Detection”, 3rdEdition, New Riders Publishing,<br/>
 4. T. Fahringer, R. Prodan, “A Text book on Grid Application Development and Computing Environment”. 6th Edition, Khanna Publishers<br/>
 ]]></string>
+    <string name="view_document"><u>View Document</u></string>
+    <string name="notice_board"><u>NOTICE BOARD</u></string>
+    <string name="calendar">Calendar</string>
+    <string name="notice_board_tag">Notice Board</string>
 
 
 </resources>

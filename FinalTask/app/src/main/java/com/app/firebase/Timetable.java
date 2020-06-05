@@ -17,6 +17,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.app.firebase.models.DaysModel;
+
 public class Timetable extends AppCompatActivity {
 
     private ListView daysLv;
@@ -25,14 +27,14 @@ public class Timetable extends AppCompatActivity {
     public static SharedPreferences sharedPreferences;
     public static String SEL_DAY;
 
-    Days monday=new Days(R.drawable.monday);
-    Days tuesday=new Days(R.drawable.tuesday);
-    Days wednesday=new Days(R.drawable.wednesday);
-    Days thursday=new Days(R.drawable.thursday);
-    Days friday=new Days(R.drawable.friday);
-    Days saturday=new Days(R.drawable.saturday);
+    DaysModel monday=new DaysModel(R.drawable.monday);
+    DaysModel tuesday=new DaysModel(R.drawable.tuesday);
+    DaysModel wednesday=new DaysModel(R.drawable.wednesday);
+    DaysModel thursday=new DaysModel(R.drawable.thursday);
+    DaysModel friday=new DaysModel(R.drawable.friday);
+    DaysModel saturday=new DaysModel(R.drawable.saturday);
 
-    Days[] daysArray=new Days[]{
+    DaysModel[] daysModelArray =new DaysModel[]{
             monday,tuesday,wednesday,thursday,friday,saturday
     };
 
@@ -116,7 +118,7 @@ public class Timetable extends AppCompatActivity {
             else{
                 holder=(ViewHolder)convertView.getTag();//This optimizes the load time
             }
-            holder.ivLogo.setImageResource(daysArray[position].getImage());
+            holder.ivLogo.setImageResource(daysModelArray[position].getImage());
             holder.tvWeek.setText(week[position]);
             return convertView;
 

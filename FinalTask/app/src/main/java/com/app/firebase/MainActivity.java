@@ -17,7 +17,7 @@ import com.google.common.collect.Maps;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
-    Button logout, calculator, voicerecorder, todo, library, timetable, syllabus, academic,maps;
+    Button logout, calculator, voicerecorder, todo, library, timetable, syllabus, academic,maps,noticeBoard,calendar;
     public static final int ACTIVITY_RECORD_SOUND = 0;
 
 
@@ -33,7 +33,9 @@ public class MainActivity extends AppCompatActivity {
         timetable = (Button) findViewById(R.id.timetable);
         syllabus = (Button) findViewById(R.id.syllabus);
         academic = (Button) findViewById(R.id.academic);
+        calendar = (Button) findViewById(R.id.calendar);
 //        maps=(Button)findViewById(R.id.maps);
+        noticeBoard=(Button)findViewById(R.id.noticeBoardIcon);
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -120,6 +122,19 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(new Intent(MainActivity.this, Map.class));
 //            }
 //        });
+        noticeBoard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,NoticeBoard.class));
+            }
+        });
+
+        calendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,Calendar.class));
+            }
+        });
 
     }
 }

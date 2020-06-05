@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/heading_background"
+    android:layout_margin="5dp">
+
+
+    <TextView
+        android:id="@+id/noticeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/carlito"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/noticeHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noticeDate"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/carlito"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/noticeDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noticeHeading"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/carlito"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/noticeLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noticeDesc"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/carlito"
+        android:text="@string/view_document"
+        android:textColor="#000"
+        android:textSize="15sp" />
+</RelativeLayout>
